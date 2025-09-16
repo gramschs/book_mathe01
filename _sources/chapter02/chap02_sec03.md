@@ -1,4 +1,4 @@
-# 2.3 Polynome
+# 2.3 Potenzfunktionen und Polynome
 
 ```{admonition} Hinweise zur Vorlesung Mathematik 1 im WiSe 2024/25
 :class: warning
