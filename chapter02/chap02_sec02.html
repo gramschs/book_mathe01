@@ -459,8 +459,6 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beschranktheit-wie-hoch-und-wie-tief-geht-es">Beschränktheit - Wie hoch und wie tief geht es?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#symmetrie-spiegelbahnen">Symmetrie - Spiegelbahnen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#periodizitat-wiederholende-muster">Periodizität - Wiederholende Muster</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kombination-von-eigenschaften">Kombination von Eigenschaften</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#praktische-bedeutung-fur-das-bahndesign">Praktische Bedeutung für das Bahndesign</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
 </ul>
             </nav>
@@ -621,30 +619,126 @@ Studyflix</a></p></li>
 <strong>Beschränktheit</strong>.</p>
 <div class="note admonition">
 <p class="admonition-title">Was ist … Beschränktheit?</p>
-<p>Eine Funktion <span class="math notranslate nohighlight">\(f\)</span> heißt <strong>nach oben beschränkt</strong>, wenn es eine Zahl <span class="math notranslate nohighlight">\(M\)</span> gibt,
-sodass <span class="math notranslate nohighlight">\(f(x) \leq M\)</span> für alle <span class="math notranslate nohighlight">\(x\)</span> aus der Definitionsmenge.</p>
-<p>Eine Funktion <span class="math notranslate nohighlight">\(f\)</span> heißt <strong>nach unten beschränkt</strong>, wenn es eine Zahl <span class="math notranslate nohighlight">\(m\)</span> gibt,
-sodass <span class="math notranslate nohighlight">\(f(x) \geq m\)</span> für alle <span class="math notranslate nohighlight">\(x\)</span> aus der Definitionsmenge.</p>
+<p>Eine Funktion <span class="math notranslate nohighlight">\(f\)</span> heißt <strong>nach oben beschränkt</strong>, wenn es eine Zahl <span class="math notranslate nohighlight">\(S\)</span> gibt,
+sodass <span class="math notranslate nohighlight">\(f(x) \leq S\)</span> für alle <span class="math notranslate nohighlight">\(x\)</span> aus der Definitionsmenge.</p>
+<p>Eine Funktion <span class="math notranslate nohighlight">\(f\)</span> heißt <strong>nach unten beschränkt</strong>, wenn es eine Zahl <span class="math notranslate nohighlight">\(s\)</span> gibt,
+sodass <span class="math notranslate nohighlight">\(f(x) \geq s\)</span> für alle <span class="math notranslate nohighlight">\(x\)</span> aus der Definitionsmenge.</p>
 <p>Eine <strong>beschränkte</strong> Funktion ist sowohl nach oben als auch nach unten
 beschränkt.</p>
 </div>
+<p>Die Kugelbahn ist nach unten beschränkt durch die Tischplatte, es ist also <span class="math notranslate nohighlight">\(s =
+0~\text{cm}\)</span>. Die größte Höhe finden wir am Start-Block, also ist <span class="math notranslate nohighlight">\(S =
+6~\text{cm}\)</span>. Da die Höhenfunktion sowohl nach unten als auch nach oben
+beschränkt ist, ist sie beschränkt.</p>
 </section>
 <section id="symmetrie-spiegelbahnen">
 <h2>Symmetrie - Spiegelbahnen<a class="headerlink" href="#symmetrie-spiegelbahnen" title="Link to this heading">#</a></h2>
-<p>Erweitern wir unser Kugelbahn-System um symmetrische Konstruktionen. Symmetrie
-macht Bahnen oft besonders elegant und vorhersagbar.</p>
+<p>Die Kugelbahn hat uns geholfen, das Konzept der Monotonie zu verstehen. Nun
+wollen wir ein neues Unterscheidungsmerkmal kennenlernen: die Symmetrie.
+Symmetrie begegnet uns ständig in der Technik. Bauteile sind oft
+spiegelsymmetrisch konstruiert, während andere Strukturen punktsymmetrisch sind.
+In der Mathematik drücken wir diese Symmetrien durch gerade und ungerade
+Funktionen aus.</p>
+<p>In diesem Beispiel ist die Kugelbahn symmetrisch nach links weitergebaut worden.
+Die Kugel kann vom Start-Block entweder nach links oder rechts rollen. Versehen
+wir die Kugelbahn erneut mit einem Koordinatensystem und befindet sich die
+y-Achse im Turm des Start-Blocks, so sind die Schienen spiegelbildlich zur
+y-Achse. Wir beschreiben diese Kugelbahn durch die Funktionsgleichung</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}h(x)=\begin{cases}
+0.25x + 6, \quad &amp; -24 \leq x &lt; 0,\\
+-0.25x + 6, \quad &amp; 0 \leq x \leq 24.\\
+\end{cases}\end{split}\]</div>
+<p>Außerdem stellen wir fest, dass <span class="math notranslate nohighlight">\(h(-x) = h(x)\)</span> gilt.</p>
+<figure class="align-default" id="function-marble-track-symmetric">
+<a class="reference internal image-reference" href="../_images/function_marble_track_symmetric.svg"><img alt="../_images/function_marble_track_symmetric.svg" src="../_images/function_marble_track_symmetric.svg" width="75%" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Graph bzw. Plot der Höhenfunktion der Kugel einer y-achsensymmetrischen Kugelbahn
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#function-marble-track-symmetric" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Eine realistische Kugelbahn, die punktsymmetrisch zum Ursprung ist, können wir
+in diesem Beispiel nicht konstruieren, da die Tischplatte die Kugelbahn nach
+unten beschränkt und negative Höhen nicht zugelassen sind. Aber es gibt viele
+technische Systeme, für diese Einschränkung nicht gilt. Anstatt einer Kugelbahn
+betrachten wir nun eine Achterbahn, die in hügeliges Gelände gebaut wurde.
+Stellen Sie sich vor, die Schienen führen auf der rechten Seite über einen Hügel
+und auf der linken Seite durch ein entsprechend tiefes Tal.</p>
+<figure class="align-default" id="function-marble-track-odd">
+<a class="reference internal image-reference" href="../_images/function_marble_track_odd.svg"><img alt="../_images/function_marble_track_odd.svg" src="../_images/function_marble_track_odd.svg" width="75%" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Graph einer zum Ursprung punktsymmetrischen Achterbahn
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#function-marble-track-odd" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Diese Achterbahn können wir mathematisch durch die Funktion</p>
+<div class="math notranslate nohighlight">
+\[h(x) = 0.1 x^3\]</div>
+<p>beschreiben, wobei das Koordinatensystem so gewählt ist, dass der Nullpunkt in
+der Mitte liegt. Die Besonderheit dieser Funktion zeigt sich, wenn wir die
+Symmetrie untersuchen:</p>
+<ul class="simple">
+<li><p>Bei <span class="math notranslate nohighlight">\(x = 2\)</span> ist die Höhe <span class="math notranslate nohighlight">\(h(2) = 0.1 \cdot 2^3 = 0.8~\text{cm}\)</span> (Hügel)</p></li>
+<li><p>Bei <span class="math notranslate nohighlight">\(x = -2\)</span> ist die Höhe <span class="math notranslate nohighlight">\(h(-2) = 0.1 \cdot (-2)^3 = -0.8~\text{cm}\)</span> (Tal)</p></li>
+</ul>
+<p>Allgemein gilt: <span class="math notranslate nohighlight">\(h(-x) = 0{,}1 \cdot (-x)^3 = -0{,}1x^3 = -h(x)\)</span>.</p>
+<p>Die Achterbahn-Kugelbahn veranschaulicht eine fundamentale Eigenschaft vieler
+technischer Systeme: Aktion und Reaktion sind betragsmäßig gleich, aber
+entgegengesetzt gerichtet.</p>
 <div class="note admonition">
 <p class="admonition-title">Was ist … Symmetrie?</p>
-<p><strong>Achsensymmetrie (gerade Funktion):</strong> Eine Funktion ist achsensymmetrisch zur
+<p><strong>Achsensymmetrie (gerade Funktion)</strong>: Eine Funktion ist achsensymmetrisch zur
 y-Achse, wenn <span class="math notranslate nohighlight">\(f(-x) = f(x)\)</span> gilt. Der Graph ist spiegelbar an der y-Achse.</p>
 <p><strong>Punktsymmetrie (ungerade Funktion):</strong> Eine Funktion ist punktsymmetrisch zum
 Ursprung, wenn <span class="math notranslate nohighlight">\(f(-x) = -f(x)\)</span> gilt. Der Graph ist spiegelbar am Ursprung.</p>
 </div>
-</section>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Symmetrie - Gerade und ungerade Funktionen” von HM Kompakt</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/6zycknHh1-M?si=_tuwbMJSLhUjPLcG"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Beispiele gerade und ungerade Funktionen” von HM Kompakt</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/C0kEBDmNrYU?si=See83DQYwZ52pr2J"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Was ist die Achsensymmetrie?” von studiVEMINT</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/ertsVp3ANsE?si=OkXFyBbEMuvHv9Il"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Was ist die Punktsymmetrie?” von studiVEMINT</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/A3vSYkVmpi0?si=XBxnbtfdvrC1amgz"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details></section>
 <section id="periodizitat-wiederholende-muster">
 <h2>Periodizität - Wiederholende Muster<a class="headerlink" href="#periodizitat-wiederholende-muster" title="Link to this heading">#</a></h2>
 <p>Stellen Sie sich eine Kugelbahn vor, die über eine Reihe identischer Hügel
 führt. Diese wiederholende Struktur führt uns zur <strong>Periodizität</strong>.</p>
+<figure class="align-default" id="function-marble-track-periodic">
+<a class="reference internal image-reference" href="../_images/function_marble_track_periodic.svg"><img alt="../_images/function_marble_track_periodic.svg" src="../_images/function_marble_track_periodic.svg" width="75%" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Graph einer periodischen Kugelbahn mit Periode <span class="math notranslate nohighlight">\(\pi\)</span>
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#function-marble-track-periodic" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 <div class="note admonition">
 <p class="admonition-title">Was ist … Periodizität?</p>
 <p>Eine Funktion <span class="math notranslate nohighlight">\(f\)</span> heißt <strong>periodisch</strong> mit der Periode <span class="math notranslate nohighlight">\(T &gt; 0\)</span>, wenn <span class="math notranslate nohighlight">\(f(x + T) =
@@ -652,51 +746,14 @@ f(x)\)</span> für alle <span class="math notranslate nohighlight">\(x\)</span> 
 <p>Die kleinste positive Zahl <span class="math notranslate nohighlight">\(T\)</span> mit dieser Eigenschaft heißt <strong>Grundperiode</strong>.</p>
 </div>
 </section>
-<section id="kombination-von-eigenschaften">
-<h2>Kombination von Eigenschaften<a class="headerlink" href="#kombination-von-eigenschaften" title="Link to this heading">#</a></h2>
-<p>In der Realität können Kugelbahnen mehrere Eigenschaften gleichzeitig aufweisen:</p>
-<p><strong>Berg-und-Tal-Bahn:</strong> Eine Bahn <span class="math notranslate nohighlight">\(h(x) = -0.1x^2 + 3\cos(x) + 5\)</span> könnte:</p>
-<ul class="simple">
-<li><p>Beschränkt sein (zwischen Boden und Tunneldecke)</p></li>
-<li><p>Periodische Elemente enthalten (die Cosinus-Komponente)</p></li>
-<li><p>Einen übergeordneten Trend haben (die Parabel-Komponente)</p></li>
-</ul>
-<p><strong>Treppenbahn:</strong> Eine Bahn mit stufenweisen Absenkungen zeigt abschnittweise
-Monotonie und ist beschränkt.</p>
-</section>
-<section id="praktische-bedeutung-fur-das-bahndesign">
-<h2>Praktische Bedeutung für das Bahndesign<a class="headerlink" href="#praktische-bedeutung-fur-das-bahndesign" title="Link to this heading">#</a></h2>
-<p>Diese Eigenschaften helfen uns beim systematischen Design von Kugelbahnen:</p>
-<ol class="arabic simple">
-<li><p><strong>Monotonie:</strong> Bestimmt die grundsätzliche Energieentwicklung (Beschleunigung/Abbremsung)</p></li>
-<li><p><strong>Beschränktheit:</strong> Legt die Konstruktionsgrenzen fest</p></li>
-<li><p><strong>Symmetrie:</strong> Vereinfacht Planung und erhöht Stabilität</p></li>
-<li><p><strong>Periodizität:</strong> Ermöglicht modularen Aufbau und Vorhersagbarkeit</p></li>
-</ol>
-</section>
 <section id="zusammenfassung-und-ausblick">
 <h2>Zusammenfassung und Ausblick<a class="headerlink" href="#zusammenfassung-und-ausblick" title="Link to this heading">#</a></h2>
 <p>Die Eigenschaften von Funktionen - Monotonie, Beschränktheit, Symmetrie und
 Periodizität - helfen uns, das Verhalten mathematischer Zusammenhänge zu
 verstehen und zu klassifizieren. Anhand unserer Kugelbahn-Beispiele wird
 deutlich, wie diese abstrakten Konzepte ganz konkrete praktische Bedeutung
-haben.</p>
-<p>In den folgenden Kapiteln werden wir diese Eigenschaften nutzen, um komplexere
-Funktionstypen zu verstehen und gezielt Kugelbahnen für spezifische
-Anforderungen zu entwerfen. Die mathematische Analyse von Funktionseigenschaften
-wird uns dabei helfen, optimale Lösungen zu finden.</p>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0tsv-OfsZNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DUduGskMh3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HdPT8R3qOhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+haben. In den nächsten Kapiteln werden wir verschiedene Klassen von Funktionen
+kennenlernen und dabei diese Eigenschaften immer wieder aufgreifen.</p>
 </section>
 </section>
 
@@ -770,8 +827,6 @@ wird uns dabei helfen, optimale Lösungen zu finden.</p>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beschranktheit-wie-hoch-und-wie-tief-geht-es">Beschränktheit - Wie hoch und wie tief geht es?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#symmetrie-spiegelbahnen">Symmetrie - Spiegelbahnen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#periodizitat-wiederholende-muster">Periodizität - Wiederholende Muster</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kombination-von-eigenschaften">Kombination von Eigenschaften</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#praktische-bedeutung-fur-das-bahndesign">Praktische Bedeutung für das Bahndesign</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
 </ul>
   </nav></div>

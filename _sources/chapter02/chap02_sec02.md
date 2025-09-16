@@ -159,34 +159,139 @@ Jede reale Kugelbahn hat physikalische Grenzen. Diese führen uns zum Konzept de
 
 ```{admonition} Was ist ... Beschränktheit?
 :class: note
-Eine Funktion $f$ heißt **nach oben beschränkt**, wenn es eine Zahl $M$ gibt,
-sodass $f(x) \leq M$ für alle $x$ aus der Definitionsmenge.
+Eine Funktion $f$ heißt **nach oben beschränkt**, wenn es eine Zahl $S$ gibt,
+sodass $f(x) \leq S$ für alle $x$ aus der Definitionsmenge.
 
-Eine Funktion $f$ heißt **nach unten beschränkt**, wenn es eine Zahl $m$ gibt,
-sodass $f(x) \geq m$ für alle $x$ aus der Definitionsmenge.
+Eine Funktion $f$ heißt **nach unten beschränkt**, wenn es eine Zahl $s$ gibt,
+sodass $f(x) \geq s$ für alle $x$ aus der Definitionsmenge.
 
 Eine **beschränkte** Funktion ist sowohl nach oben als auch nach unten
 beschränkt.
 ```
 
+Die Kugelbahn ist nach unten beschränkt durch die Tischplatte, es ist also $s =
+0~\text{cm}$. Die größte Höhe finden wir am Start-Block, also ist $S =
+6~\text{cm}$. Da die Höhenfunktion sowohl nach unten als auch nach oben
+beschränkt ist, ist sie beschränkt.
+
 ## Symmetrie - Spiegelbahnen
 
-Erweitern wir unser Kugelbahn-System um symmetrische Konstruktionen. Symmetrie
-macht Bahnen oft besonders elegant und vorhersagbar.
+Die Kugelbahn hat uns geholfen, das Konzept der Monotonie zu verstehen. Nun
+wollen wir ein neues Unterscheidungsmerkmal kennenlernen: die Symmetrie.
+Symmetrie begegnet uns ständig in der Technik. Bauteile sind oft
+spiegelsymmetrisch konstruiert, während andere Strukturen punktsymmetrisch sind.
+In der Mathematik drücken wir diese Symmetrien durch gerade und ungerade
+Funktionen aus.
+
+In diesem Beispiel ist die Kugelbahn symmetrisch nach links weitergebaut worden.
+Die Kugel kann vom Start-Block entweder nach links oder rechts rollen. Versehen
+wir die Kugelbahn erneut mit einem Koordinatensystem und befindet sich die
+y-Achse im Turm des Start-Blocks, so sind die Schienen spiegelbildlich zur
+y-Achse. Wir beschreiben diese Kugelbahn durch die Funktionsgleichung
+
+$$h(x)=\begin{cases}
+0.25x + 6, \quad & -24 \leq x < 0,\\
+-0.25x + 6, \quad & 0 \leq x \leq 24.\\
+\end{cases}$$
+
+Außerdem stellen wir fest, dass $h(-x) = h(x)$ gilt.
+
+```{figure} pics/function_marble_track_symmetric.svg
+---
+width: 75%
+name: function_marble_track_symmetric
+---
+Graph bzw. Plot der Höhenfunktion der Kugel einer y-achsensymmetrischen Kugelbahn
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
+
+Eine realistische Kugelbahn, die punktsymmetrisch zum Ursprung ist, können wir
+in diesem Beispiel nicht konstruieren, da die Tischplatte die Kugelbahn nach
+unten beschränkt und negative Höhen nicht zugelassen sind. Aber es gibt viele
+technische Systeme, für diese Einschränkung nicht gilt. Anstatt einer Kugelbahn
+betrachten wir nun eine Achterbahn, die in hügeliges Gelände gebaut wurde.
+Stellen Sie sich vor, die Schienen führen auf der rechten Seite über einen Hügel
+und auf der linken Seite durch ein entsprechend tiefes Tal.
+
+```{figure} pics/function_marble_track_odd.svg
+---
+width: 75%
+name: function_marble_track_odd
+---
+Graph einer zum Ursprung punktsymmetrischen Achterbahn
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
+
+Diese Achterbahn können wir mathematisch durch die Funktion
+
+$$h(x) = 0.1 x^3$$
+
+beschreiben, wobei das Koordinatensystem so gewählt ist, dass der Nullpunkt in
+der Mitte liegt. Die Besonderheit dieser Funktion zeigt sich, wenn wir die
+Symmetrie untersuchen:
+
+- Bei $x = 2$ ist die Höhe $h(2) = 0.1 \cdot 2^3 = 0.8~\text{cm}$ (Hügel)
+- Bei $x = -2$ ist die Höhe $h(-2) = 0.1 \cdot (-2)^3 = -0.8~\text{cm}$ (Tal)
+
+Allgemein gilt: $h(-x) = 0{,}1 \cdot (-x)^3 = -0{,}1x^3 = -h(x)$.
+
+Die Achterbahn-Kugelbahn veranschaulicht eine fundamentale Eigenschaft vieler
+technischer Systeme: Aktion und Reaktion sind betragsmäßig gleich, aber
+entgegengesetzt gerichtet.
 
 ```{admonition} Was ist ... Symmetrie?
 :class: note
-**Achsensymmetrie (gerade Funktion):** Eine Funktion ist achsensymmetrisch zur
+**Achsensymmetrie (gerade Funktion)**: Eine Funktion ist achsensymmetrisch zur
 y-Achse, wenn $f(-x) = f(x)$ gilt. Der Graph ist spiegelbar an der y-Achse.
 
 **Punktsymmetrie (ungerade Funktion):** Eine Funktion ist punktsymmetrisch zum
 Ursprung, wenn $f(-x) = -f(x)$ gilt. Der Graph ist spiegelbar am Ursprung.
 ```
 
+```{dropdown} Video "Symmetrie - Gerade und ungerade Funktionen" von HM Kompakt
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/6zycknHh1-M?si=_tuwbMJSLhUjPLcG"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+```{dropdown} Video "Beispiele gerade und ungerade Funktionen" von HM Kompakt
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/C0kEBDmNrYU?si=See83DQYwZ52pr2J"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+```{dropdown} Video "Was ist die Achsensymmetrie?" von studiVEMINT
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/ertsVp3ANsE?si=OkXFyBbEMuvHv9Il"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+```{dropdown} Video "Was ist die Punktsymmetrie?" von studiVEMINT
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/A3vSYkVmpi0?si=XBxnbtfdvrC1amgz"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
 ## Periodizität - Wiederholende Muster
 
 Stellen Sie sich eine Kugelbahn vor, die über eine Reihe identischer Hügel
 führt. Diese wiederholende Struktur führt uns zur **Periodizität**.
+
+```{figure} pics/function_marble_track_periodic.svg
+---
+width: 75%
+name: function_marble_track_periodic
+---
+Graph einer periodischen Kugelbahn mit Periode $\pi$
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
 
 ```{admonition} Was ist ... Periodizität?
 :class: note
@@ -196,52 +301,11 @@ f(x)$ für alle $x$ aus der Definitionsmenge gilt.
 Die kleinste positive Zahl $T$ mit dieser Eigenschaft heißt **Grundperiode**.
 ```
 
-## Kombination von Eigenschaften
-
-In der Realität können Kugelbahnen mehrere Eigenschaften gleichzeitig aufweisen:
-
-**Berg-und-Tal-Bahn:** Eine Bahn $h(x) = -0.1x^2 + 3\cos(x) + 5$ könnte:
-
-- Beschränkt sein (zwischen Boden und Tunneldecke)
-- Periodische Elemente enthalten (die Cosinus-Komponente)
-- Einen übergeordneten Trend haben (die Parabel-Komponente)
-
-**Treppenbahn:** Eine Bahn mit stufenweisen Absenkungen zeigt abschnittweise
-Monotonie und ist beschränkt.
-
-## Praktische Bedeutung für das Bahndesign
-
-Diese Eigenschaften helfen uns beim systematischen Design von Kugelbahnen:
-
-1. **Monotonie:** Bestimmt die grundsätzliche Energieentwicklung (Beschleunigung/Abbremsung)
-2. **Beschränktheit:** Legt die Konstruktionsgrenzen fest
-3. **Symmetrie:** Vereinfacht Planung und erhöht Stabilität
-4. **Periodizität:** Ermöglicht modularen Aufbau und Vorhersagbarkeit
-
 ## Zusammenfassung und Ausblick
 
 Die Eigenschaften von Funktionen - Monotonie, Beschränktheit, Symmetrie und
 Periodizität - helfen uns, das Verhalten mathematischer Zusammenhänge zu
 verstehen und zu klassifizieren. Anhand unserer Kugelbahn-Beispiele wird
 deutlich, wie diese abstrakten Konzepte ganz konkrete praktische Bedeutung
-haben.
-
-In den folgenden Kapiteln werden wir diese Eigenschaften nutzen, um komplexere
-Funktionstypen zu verstehen und gezielt Kugelbahnen für spezifische
-Anforderungen zu entwerfen. Die mathematische Analyse von Funktionseigenschaften
-wird uns dabei helfen, optimale Lösungen zu finden.
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0tsv-OfsZNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DUduGskMh3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HdPT8R3qOhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
+haben. In den nächsten Kapiteln werden wir verschiedene Klassen von Funktionen
+kennenlernen und dabei diese Eigenschaften immer wieder aufgreifen.
