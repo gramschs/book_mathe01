@@ -94,10 +94,10 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" refe
 
 Die Höhenfunktion zeigt folgendes Monotonieverhalten:
 
-- Abschnitt 1 (für das Intervall $I_1=[0; 8]$): streng monoton fallend, d.h.
+- Abschnitt 1 für das Intervall $I_1=[0; 8]$: streng monoton fallend, d.h.
   $h(x_1)>h(x_2)$,
-- Abschnitt 2 (für das Intervall $I_2=(8; 12]$): konstant, d.h. $h(x_1)=h(x_2)$,
-- Abschnitt 3 (für das Intervall $I_3=(12; 24]$): streng monoton fallend, d.h.
+- Abschnitt 2 für das Intervall $I_2=(8; 12]$: konstant, d.h. $h(x_1)=h(x_2)$,
+- Abschnitt 3 für das Intervall $I_3=(12; 24]$: streng monoton fallend, d.h.
   $h(x_1)>h(x_2)$.
 
 Wenn wir den Begriff »streng« lockern, dann gilt für die gesamte Funktion $h$
