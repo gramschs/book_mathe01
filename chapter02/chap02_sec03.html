@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
     <link rel="stylesheet" type="text/css" href="../_static/myadmonitions.css?v=6fbb18da" />
@@ -61,6 +61,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'chapter02/chap02_sec03';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -453,9 +455,11 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lernziele">Lernziele</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polynome">Polynome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#potenzfunktionen">Potenzfunktionen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lineare-funktionen">Lineare Funktionen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quadratische-funktionen">Quadratische Funktionen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polynome">Polynome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
 </ul>
             </nav>
         </div>
@@ -469,56 +473,336 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="potenzfunktionen-und-polynome">
 <h1>2.3 Potenzfunktionen und Polynome<a class="headerlink" href="#potenzfunktionen-und-polynome" title="Link to this heading">#</a></h1>
-<div class="warning admonition">
-<p class="admonition-title">Hinweise zur Vorlesung Mathematik 1 im WiSe 2024/25</p>
-<p>In den ersten zwei Wochen wird diese Vorlesung klassisch gehalten. Bitte arbeiten Sie daher das in campUAS/Moodle verlinkte Vorlesungsskript durch und ergänzen Sie dieses bei Bedarf durch die unten verlinkten Videos. Ab Woche 3 wechseln wir dann zu eduScrum und diesem Vorlesungsskript.</p>
-</div>
+<p>Nach den Grundlagen zu Funktionen widmen wir uns nun den wichtigsten
+Funktionstypen: Potenzfunktionen und Polynome bilden die Grundbausteine für
+viele mathematische Modelle.</p>
 <section id="lernziele">
 <h2>Lernziele<a class="headerlink" href="#lernziele" title="Link to this heading">#</a></h2>
 <div class="goals admonition">
 <p class="admonition-title">Lernziele Polynome</p>
 <ul class="simple">
-<li><p>Sie wissen, was eine <strong>Potenzfunktion</strong> ist.</p></li>
-<li><p>Sie wissen, was ein <strong>Polynom</strong> ist.</p></li>
-<li><p>Sie wissen, was die <strong>Steigung</strong> und der <strong>Achsenabschnitt</strong> einer <strong>linearen Funktion</strong> ist.</p></li>
-<li><p>Sie können eine lineare Funktion als <strong>Gerade</strong> in ein Koordinatensystem zeichnen.</p></li>
-<li><p>Sie können von einer <strong>quadratischen Funktion</strong> die Nullstellen mit der <strong>pq-Formel</strong> (oder abc-Formel) berechnen.</p></li>
-<li><p>Sie können quadratische Funktionen als <strong>Parabel</strong> zeichnen.</p></li>
+<li><p>Sie wissen, was eine <strong>Potenzfunktion</strong> ist (<span class="math notranslate nohighlight">\(f(x) = a \cdot x^n\)</span>) und kennen
+ihr Verhalten für verschiedene Exponenten.</p></li>
+<li><p>Sie kennen <strong>lineare Funktionen</strong> und können deren Graphen skizzieren. Sie
+wissen, was <strong>Steigung</strong> und <strong>Achsenabschnitt</strong> bedeuten.</p></li>
+<li><p>Sie kennen <strong>quadratische Funktionen</strong> und können deren Graphen skizzieren.
+Sie wissen, was der <strong>Scheitelpunkt</strong> ist.</p></li>
+<li><p>Sie wissen, dass ein <strong>Polynom</strong> eine Summe von Potenzfunktionen ist und
+kennen die Begriffe <strong>Grad</strong> und <strong>Koeffizienten</strong>.</p></li>
 </ul>
 </div>
 </section>
-<section id="polynome">
-<h2>Polynome<a class="headerlink" href="#polynome" title="Link to this heading">#</a></h2>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bUSOKjICFqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section id="potenzfunktionen">
+<h2>Potenzfunktionen<a class="headerlink" href="#potenzfunktionen" title="Link to this heading">#</a></h2>
+<p>Unsere Kugelbahn aus dem letzten Kapitel hatte eine gerade, schräge Schiene. Die
+Höhenfunktion war linear: <span class="math notranslate nohighlight">\(h(x) = -\frac{1}{4}x + 6\)</span>. Aber was wäre, wenn wir
+eine gekrümmte Schiene verwenden? Oder eine Rampe, die immer steiler wird? Um
+solche Bahnen mathematisch zu beschreiben, benötigen wir Potenzfunktionen.</p>
+<p>Stellen wir uns verschiedene Kugelbahnen mit unterschiedlichen Schienen-Profilen
+vor. Eine Möglichkeit wäre ein parabolisches Profil, bei dem die Höhe mit dem
+Quadrat der Position zusammenhängt. Eine andere könnte einer Wurzelfunktion
+folgen, bei der die Höhe langsamer abnimmt. All diese Schienen-Profile lassen
+sich durch Potenzfunktionen beschreiben.</p>
+<div class="note admonition">
+<p class="admonition-title">Was ist … eine Potenzfunktion?</p>
+<p>Eine <strong>Potenzfunktion</strong> ist eine Funktion der Form</p>
+<div class="math notranslate nohighlight">
+\[f(x) = a \cdot x^n,\]</div>
+<p>wobei <span class="math notranslate nohighlight">\(a\)</span> ein Koeffizient (meist <span class="math notranslate nohighlight">\(a \neq 0\)</span>) und <span class="math notranslate nohighlight">\(n\)</span> der <strong>Exponent</strong> ist. Der
+Exponent <span class="math notranslate nohighlight">\(n\)</span> kann eine beliebige reelle Zahl sein.</p>
 </div>
-</section>
+<p>Der Koeffizient <span class="math notranslate nohighlight">\(a\)</span> bestimmt, wie steil oder flach die Funktion verläuft und ob
+sie nach oben oder unten zeigt. Der Exponent <span class="math notranslate nohighlight">\(n\)</span> bestimmt die grundlegende Form
+der Funktion. Betrachten wir einige wichtige Fälle:</p>
+<p><strong>Positive ganzzahlige Exponenten (<span class="math notranslate nohighlight">\(n = 1, 2, 3, \ldots\)</span>):</strong></p>
+<ul class="simple">
+<li><p>Für <span class="math notranslate nohighlight">\(n=1\)</span> erhalten wir die einfachste Form: <span class="math notranslate nohighlight">\(f(x) = a \cdot x\)</span>. Dies ist eine
+Gerade durch den Ursprung.</p></li>
+<li><p>Für <span class="math notranslate nohighlight">\(n=2\)</span> bekommen wir eine Parabel: <span class="math notranslate nohighlight">\(f(x) = a \cdot x^2\)</span>. Je nachdem, ob <span class="math notranslate nohighlight">\(a\)</span>
+positiv oder negativ ist, öffnet sich die Parabel nach oben oder unten.</p></li>
+<li><p>Für <span class="math notranslate nohighlight">\(n=3\)</span> ergibt sich eine kubische Funktion: <span class="math notranslate nohighlight">\(f(x) = a \cdot x^3\)</span>. Diese hat
+einen charakteristischen S-förmigen Verlauf und wechselt ihr Krümmungsverhalten.</p></li>
+</ul>
+<figure class="align-default" id="power-function-positive-exponent">
+<img alt="../_images/power_function_positive_exponent.svg" src="../_images/power_function_positive_exponent.svg" /><figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Graphen von Potenzfunktionen mit positiven Exponenten: links ungerade, rechts gerade Exponenten
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#power-function-positive-exponent" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p><strong>Negative Exponenten (<span class="math notranslate nohighlight">\(n = -1, -2, -3, \ldots\)</span>):</strong></p>
+<p>Für negative Exponenten <span class="math notranslate nohighlight">\(n\)</span> können wir die Potenzfunktion auch als Bruch
+schreiben:</p>
+<div class="math notranslate nohighlight">
+\[f(x) = a \cdot x^{-n} = \frac{a}{x^n}.\]</div>
+<p>Diese Funktionen sind bei <span class="math notranslate nohighlight">\(x=0\)</span> nicht definiert und nähern sich für <span class="math notranslate nohighlight">\(x \to 0\)</span>
+dem Wert <span class="math notranslate nohighlight">\(\pm\infty\)</span>. Ein Beispiel ist die Hyperbel <span class="math notranslate nohighlight">\(f(x) = \frac{1}{x}\)</span>
+(entspricht <span class="math notranslate nohighlight">\(n=-1\)</span>).</p>
+<figure class="align-default" id="power-functions-negative">
+<img alt="../_images/power_functions_negative.svg" src="../_images/power_functions_negative.svg" /><figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Graphen von Potenzfunktionen mit einem negativen Exponenten: links ungerade,
+rechts gerade Exponenten
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#power-functions-negative" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p><strong>Rationale Exponenten (Wurzelfunktionen):</strong></p>
+<p>Ist der Exponent ein Bruch, beispielsweise <span class="math notranslate nohighlight">\(n = \frac{1}{2}\)</span>​, so erhalten wir
+Wurzelfunktionen mit der Definitionsmenge <span class="math notranslate nohighlight">\(D = [0; \infty)\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[f(x) = x^{\frac{1}{2}} = \sqrt{x}.\]</div>
+<p>Eine Kugelbahn mit einer Wurzelfunktion wie beispielsweise <span class="math notranslate nohighlight">\(f(x)=-\sqrt{x}\)</span> als
+Profil würde am Anfang steil abfallen und dann immer flacher werden.</p>
+<figure class="align-default" id="power-functions-fraction">
+<a class="reference internal image-reference" href="../_images/power_functions_fraction.svg"><img alt="../_images/power_functions_fraction.svg" src="../_images/power_functions_fraction.svg" width="75%" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Graphen von Potenzfunktionen mit einem Bruch als Exponent
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#power-functions-fraction" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Hinweis: Der Exponent der Potenzfunktion kann eine beliebige reelle Zahl sein.
+Aber die Wahl des Exponten bestimmt die Definitionsmenge der Potenzfunktion, wie
+auch das folgende Video erläutert.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Wie unterscheiden sich Definitionsmengen von Potenzfunktionen?” von studiVEMINT</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-kESjJCklk0?si=TBIXSdivHv3lOhdZ"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details></section>
 <section id="lineare-funktionen">
 <h2>Lineare Funktionen<a class="headerlink" href="#lineare-funktionen" title="Link to this heading">#</a></h2>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
+<p>Im letzten Kapitel haben wir bereits eine lineare Funktion kennengelernt: Die
+Höhenfunktion unserer geraden Kugelbahn war <span class="math notranslate nohighlight">\(h(x) = -\frac{1}{4}x + 6\)</span>. Diese
+Funktion enthält neben der Potenzfunktion mit dem Exponenten <span class="math notranslate nohighlight">\(n=1\)</span> noch einen
+zusätzlichen konstanten Term.</p>
+<p>Lineare Funktionen sind die einfachsten nichtkonstanten Funktionen und spielen
+in der Mathematik und ihren Anwendungen eine zentrale Rolle. Ihr Graph ist immer
+eine Gerade, was sie besonders übersichtlich und vorhersagbar macht.</p>
+<div class="note admonition">
+<p class="admonition-title">Was ist … eine lineare Funktion?</p>
+<p>Eine <strong>lineare Funktion</strong> ist eine Funktion der Form</p>
+<div class="math notranslate nohighlight">
+\[f(x) = m \cdot x + b,\]</div>
+<p>wobei <span class="math notranslate nohighlight">\(m\)</span> die <strong>Steigung</strong> und <span class="math notranslate nohighlight">\(b\)</span> der <strong>Achsenabschnitt</strong> (oder
+y-Achsenabschnitt) ist. Beide Parameter <span class="math notranslate nohighlight">\(m\)</span> und <span class="math notranslate nohighlight">\(b\)</span> sind reelle Zahlen.</p>
+</div>
+<p>Die Steigung gibt an, wie stark die Gerade ansteigt oder abfällt. Bei unserer
+Kugelbahn war <span class="math notranslate nohighlight">\(m = -\frac{1}{4}\)</span>​, die Schiene fiel also. Je größer der Betrag
+von <span class="math notranslate nohighlight">\(m\)</span> ist, desto steiler verläuft die Gerade:</p>
+<ul class="simple">
+<li><p>Ist <span class="math notranslate nohighlight">\(m &gt; 0\)</span>, dann steigt die Gerade (monoton wachsende Funktion).</p></li>
+<li><p>Ist <span class="math notranslate nohighlight">\(m &lt; 0\)</span>, dann fällt die Gerade (monoton fallende Funktion).</p></li>
+<li><p>Ist <span class="math notranslate nohighlight">\(m = 0\)</span>, dann ist die Funktion konstant (horizontale Gerade).</p></li>
+</ul>
+<p>Die Steigung lässt sich geometrisch über das sogenannte Steigungsdreieck
+bestimmen. Wenn wir von einem Punkt <span class="math notranslate nohighlight">\((x_1, y_1)\)</span> zu einem anderen Punkt <span class="math notranslate nohighlight">\((x_2,
+y_2)\)</span> auf der Geraden gehen, dann gilt:</p>
+<div class="math notranslate nohighlight">
+\[m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2-x_1}.\]</div>
+<p>Bei unserer Kugelbahn bedeutet eine Steigung von <span class="math notranslate nohighlight">\(m=-\frac{1}{4}\)</span>: Wenn die
+Kugel 4 cm nach rechts rollt, sinkt sie um 1 cm.</p>
+<p>Der Achsenabschnitt ist der y-Wert, bei dem die Gerade die y-Achse schneidet.
+Setzen wir <span class="math notranslate nohighlight">\(x = 0\)</span> in die Funktionsgleichung ein, erhalten wir:</p>
+<div class="math notranslate nohighlight">
+\[f(0) = m \cdot 0 + b = b.\]</div>
+<p>Bei unserer Kugelbahn war <span class="math notranslate nohighlight">\(b = 6\)</span> cm. Das ist genau die Starthöhe am
+Start-Stein, der sich bei <span class="math notranslate nohighlight">\(x = 0\)</span> befindet.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Lineare Funktion” von Mathematrick</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RDdLbEq-_v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Lineare Funktion zeichnen” von Mathematrick</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/50E1gIunhzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-</section>
+</details></section>
 <section id="quadratische-funktionen">
 <h2>Quadratische Funktionen<a class="headerlink" href="#quadratische-funktionen" title="Link to this heading">#</a></h2>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
+<p>Während die lineare Funktion eine gerade Schiene beschreibt, benötigen wir für
+gekrümmte Kugelbahnen komplexere Funktionen. Die einfachste Möglichkeit, eine
+Krümmung zu erzeugen, ist die quadratische Funktion. Ihr charakteristischer Term
+ist <span class="math notranslate nohighlight">\(ax^2\)</span>, eine Potenzfunktion mit Exponent <span class="math notranslate nohighlight">\(n=2\)</span>.</p>
+<p>Stellen wir uns eine Kugelbahn vor, die nicht einfach nur gerade abfällt,
+sondern deren Gefälle sich kontinuierlich ändert. Eine solche Bahn könnte am
+Anfang flach beginnen und dann immer steiler werden oder umgekehrt. Genau dieses
+Verhalten lässt sich durch quadratische Funktionen beschreiben.</p>
+<div class="note admonition">
+<p class="admonition-title">Was ist … eine quadratische Funktion?</p>
+<p>Eine <strong>quadratische Funktion</strong> ist eine Funktion der Form</p>
+<div class="math notranslate nohighlight">
+\[f(x) = ax^2 + bx + c,\]</div>
+<p>wobei <span class="math notranslate nohighlight">\(a\)</span>, <span class="math notranslate nohighlight">\(b\)</span> und <span class="math notranslate nohighlight">\(c\)</span> reelle Zahlen sind und <span class="math notranslate nohighlight">\(a \neq 0\)</span> gilt. Der Parameter <span class="math notranslate nohighlight">\(a\)</span>
+heißt <strong>Leitkoeffizient</strong>.</p>
+</div>
+<p>Der Graph einer quadratischen Funktion ist eine <strong>Parabel</strong>. Die Form und Lage
+der Parabel wird durch drei Parameter bestimmt:</p>
+<ul class="simple">
+<li><p>Der Leitkoeffizient <span class="math notranslate nohighlight">\(a\)</span> bestimmt, ob die Parabel nach oben (<span class="math notranslate nohighlight">\(a &gt; 0\)</span>) oder nach
+unten (<span class="math notranslate nohighlight">\(a &lt; 0\)</span>) geöffnet ist. Je größer der Betrag von <span class="math notranslate nohighlight">\(a\)</span>, desto schmaler ist
+die Parabel.</p></li>
+<li><p>Die Parameter <span class="math notranslate nohighlight">\(b\)</span> und <span class="math notranslate nohighlight">\(c\)</span> bestimmen die Position der Parabel im
+Koordinatensystem.</p></li>
+</ul>
+<p>Der wichtigste Punkt einer Parabel ist ihr <strong>Scheitelpunkt</strong>. Das ist der
+tiefste Punkt bei nach oben geöffneten Parabeln oder der höchste Punkt bei nach
+unten geöffneten Parabeln.</p>
+<p>Bei einem parabolischen Kugelbahn-Profil wäre der Scheitelpunkt der tiefste
+Punkt der Bahn. An diesem Punkt ist die Steigung der Bahn null; die Kugel rollt
+für einen kurzen Moment weder bergauf noch bergab.</p>
+<p>Es gibt zwei gängige Darstellungsformen für quadratische Funktionen, die jeweils
+unterschiedliche Informationen liefern:</p>
+<ul class="simple">
+<li><p>Normalform: <span class="math notranslate nohighlight">\(f(x) = ax^2 + bx + c\)</span></p></li>
+<li><p>Scheitelpunktform: <span class="math notranslate nohighlight">\(f(x) = a(x - x_S)^2 + y_S\)</span></p></li>
+</ul>
+<p>Die Normalform zeigt direkt den y-Achsenabschnitt <span class="math notranslate nohighlight">\(c\)</span>. Die Scheitelpunktform
+zeigt direkt den Scheitelpunkt <span class="math notranslate nohighlight">\(S = (x_S, y_S)\)</span>. Die Koordinaten des
+Scheitelpunkts lassen sich auch aus der Normalform berechnen:</p>
+<div class="math notranslate nohighlight">
+\[x_S = -\frac{b}{2a} \quad \text{und} \quad y_S = f(x_S).\]</div>
+<p>Eine wichtige Frage bei Kugelbahnen ist: Wo erreicht die Kugel die Tischebene?
+Mathematisch entspricht das der Frage nach den <strong>Nullstellen</strong> der Funktion,
+also den Stellen, an denen <span class="math notranslate nohighlight">\(f(x) = 0\)</span> gilt.</p>
+<p>Für quadratische Funktionen in der speziellen Form <span class="math notranslate nohighlight">\(f(x) = x^2 + px + q\)</span> gibt es
+die pq-Formel, die wir bereits aus Kapitel 1 kennen:</p>
+<div class="math notranslate nohighlight">
+\[x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}.\]</div>
+<p>Ist die quadratische Funktion in der allgemeinen Form <span class="math notranslate nohighlight">\(f(x) = ax^2 + bx + c\)</span>
+gegeben, können wir entweder zunächst durch <span class="math notranslate nohighlight">\(a\)</span> teilen oder die abc-Formel (oder
+Mitternachtsformel) verwenden:</p>
+<div class="math notranslate nohighlight">
+\[x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.\]</div>
+<p>Der Ausdruck unter der Wurzel <span class="math notranslate nohighlight">\(D = b^2 - 4ac\)</span> bzw. <span class="math notranslate nohighlight">\(D =
+\left(\frac{p}{2}\right)^2 - q\)</span> bei der pq-Formel heißt <strong>Diskriminante</strong> und
+entscheidet über die Anzahl der Nullstellen:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(D &gt; 0\)</span>: zwei verschiedene Nullstellen (die Parabel schneidet die x-Achse zweimal)</p></li>
+<li><p><span class="math notranslate nohighlight">\(D = 0\)</span>: eine Nullstelle (die Parabel berührt die x-Achse im Scheitelpunkt)</p></li>
+<li><p><span class="math notranslate nohighlight">\(D &lt; 0\)</span>: keine reellen Nullstellen (die Parabel schneidet die x-Achse nicht)</p></li>
+</ul>
+<p>Um eine Parabel zu skizzieren, bestimmen wir:</p>
+<ol class="arabic simple">
+<li><p>die Öffnungsrichtung (Vorzeichen von <span class="math notranslate nohighlight">\(a\)</span>)</p></li>
+<li><p>den Scheitelpunkt <span class="math notranslate nohighlight">\(S = (x_S, y_S)\)</span></p></li>
+<li><p>die Nullstellen (falls vorhanden)</p></li>
+<li><p>optional: den y-Achsenabschnitt <span class="math notranslate nohighlight">\(f(0)=c\)</span></p></li>
+</ol>
+<p>Diese wenigen Punkte genügen meist, um die Parabel qualitativ korrekt zu
+zeichnen.</p>
+<p>Quadratische Funktionen sind bereits deutlich vielseitiger als lineare
+Funktionen. Im nächsten Abschnitt werden wir sehen, wie wir durch Kombination
+mehrerer Potenzfunktionen noch komplexere Kugelbahn-Profile beschreiben können.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Parabel aufstellen” von Mathematrick</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QGwUeoV7NEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “pq-Formel anwenden” von Mathematrick</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IM1WtnTYJK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="seealso admonition">
-<p class="admonition-title">Video</p>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Parabel zeichnen” von Mathematrick</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RjhXB1aBDCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+</details></section>
+<section id="polynome">
+<h2>Polynome<a class="headerlink" href="#polynome" title="Link to this heading">#</a></h2>
+<p>In den vorherigen Abschnitten haben wir lineare und quadratische Funktionen
+kennengelernt. Beide haben eine gemeinsame Struktur: Sie bestehen aus Summen von
+Potenzfunktionen und konstanten Termen. Diese Klasse von Funktionen hat einen
+eigenen Namen: <strong>Polynome</strong>.</p>
+<p>Stellen wir uns eine komplexe Kugelbahn vor, die verschiedene Abschnitte
+kombiniert: erst eine flache Strecke, dann eine gekrümmte Passage, vielleicht
+noch eine steilere Kurve. Solche komplizierten Höhenprofile lassen sich durch
+Polynome beschreiben, indem wir mehrere Potenzfunktionen mit unterschiedlichen
+Exponenten addieren.</p>
+<div class="note admonition">
+<p class="admonition-title">Was ist … ein Polynom?</p>
+<p>Ein <strong>Polynom</strong> ist eine Funktion der Form</p>
+<div class="math notranslate nohighlight">
+\[p(x) = a_n x^n + a_{n-1} x^{n-1} + \ldots + a_2 x^2 + a_1 x + a_0,\]</div>
+<p>wobei <span class="math notranslate nohighlight">\(a_0, a_1, \ldots, a_n\)</span> reelle Zahlen sind, die <strong>Koeffizienten</strong> genannt
+werden. Die höchste vorkommende Potenz <span class="math notranslate nohighlight">\(n\)</span> (mit <span class="math notranslate nohighlight">\(a_n \neq 0\)</span>) heißt <strong>Grad</strong> des
+Polynoms. Der Koeffizient <span class="math notranslate nohighlight">\(a_n\)</span> beim höchsten Exponenten heißt
+<strong>Leitkoeffizient</strong>.</p>
+</div>
+<p>Ein Polynom ist also nichts anderes als eine Summe von Potenzfunktionen <span class="math notranslate nohighlight">\(a_k
+\cdot x^k\)</span> mit verschiedenen Exponenten <span class="math notranslate nohighlight">\(k\)</span>, plus einem konstanten Term <span class="math notranslate nohighlight">\(a_0\)</span>​.</p>
+<p>Beispiele:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(x) = 5x + 3\)</span> ist ein Polynom vom Grad 1 (lineare Funktion)</p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) = 2x^2 - 3x + 1\)</span> ist ein Polynom vom Grad 2 (quadratische Funktion)</p></li>
+<li><p><span class="math notranslate nohighlight">\(h(x) = x^3 - 4x^2 + x - 7\)</span> ist ein Polynom vom Grad 3 (kubisches Polynom)</p></li>
+<li><p><span class="math notranslate nohighlight">\(k(x) = -0.5x^4 + 2x^3 - x + 5\)</span> ist ein Polynom vom Grad 4</p></li>
+</ul>
+<figure class="align-default" id="examples">
+<a class="reference internal image-reference" href="../_images/examples.svg"><img alt="../_images/examples.svg" src="../_images/examples.svg" width="75%" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Graphen von Polynomen
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#examples" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Die Koeffizienten <span class="math notranslate nohighlight">\(a_0, a_1, \ldots, a_n\)</span> bestimmen die genaue Form der Kurve.
+Besonders wichtig ist der Leitkoeffizient <span class="math notranslate nohighlight">\(a_n\)</span>: Er entscheidet, wie sich das
+Polynom für sehr große oder sehr kleine x-Werte verhält:</p>
+<ul class="simple">
+<li><p>Ist <span class="math notranslate nohighlight">\(n\)</span> gerade und <span class="math notranslate nohighlight">\(a_n &gt; 0\)</span>: Der Graph geht für <span class="math notranslate nohighlight">\(x \to \pm\infty\)</span> nach oben.</p></li>
+<li><p>Ist <span class="math notranslate nohighlight">\(n\)</span> gerade und <span class="math notranslate nohighlight">\(a_n &lt; 0\)</span>: Der Graph geht für <span class="math notranslate nohighlight">\(x \to \pm\infty\)</span> nach unten.</p></li>
+<li><p>Ist <span class="math notranslate nohighlight">\(n\)</span> ungerade und <span class="math notranslate nohighlight">\(a_n &gt; 0\)</span>: Der Graph kommt von unten links und geht nach
+oben rechts.</p></li>
+<li><p>Ist <span class="math notranslate nohighlight">\(n\)</span> ungerade und <span class="math notranslate nohighlight">\(a_n &lt; 0\)</span>: Der Graph kommt von oben links und geht nach
+unten rechts.</p></li>
+</ul>
+<p>Für unsere Kugelbahn bedeutet das: Je komplexer das Höhenprofil, desto höher der
+Grad des benötigten Polynoms. Eine einfache gerade Schiene benötigt nur Grad 1,
+eine parabolische Rampe Grad 2, und eine Kugelbahn mit mehreren Hügeln und
+Tälern könnte ein Polynom höheren Grades erfordern.</p>
+<p>Beispiel: Eine Kugelbahn mit dem Höhenprofil</p>
+<div class="math notranslate nohighlight">
+\[h(x) = -0.001x^3 + 0.05x^2 - 0.5x + 6\]</div>
+<p>ist ein Polynom vom Grad 3. Diese Funktion beschreibt eine Bahn, die zunächst
+abfällt und schließlich wieder steiler wird.</p>
+<figure class="align-default" id="example-marble-track">
+<a class="reference internal image-reference" href="../_images/example_marble_track.svg"><img alt="../_images/example_marble_track.svg" src="../_images/example_marble_track.svg" width="75%" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Polynom 3. Grades zur Modellierung einer Kugelbahn
+(Quelle: eigene Darstellung; Lizenz: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA
+4.0</a>)</span><a class="headerlink" href="#example-marble-track" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Polynome verallgemeinern die Funktionen, die wir bereits kennengelernt haben.
+Potenzfunktionen sind Polynome mit nur einem Term. Lineare Funktionen sind
+Polynome vom Grad 1. Quadratische Funktionen sind Polynome vom Grad 2.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Polynome” von Mathematische Methoden</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bUSOKjICFqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Polynome: Einführung” von HM Kompakt</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J47qphMgz70?si=98dWZZMBkCAYk47V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Video “Polynome: Festlegung” von HM Kompakt</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MAf8Dw4Te7c?si=jT9aH4M_BNSlmiCj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</details></section>
+<section id="zusammenfassung-und-ausblick">
+<h2>Zusammenfassung und Ausblick<a class="headerlink" href="#zusammenfassung-und-ausblick" title="Link to this heading">#</a></h2>
+<p>Aus Potenzfunktionen bauen wir Polynome zusammen. In den folgenden Kapiteln
+werden wir weitere wichtige Funktionsklassen kennenlernen, die über Polynome
+hinausgehen: Exponential-, Logarithmus- und trigonometrische Funktionen.</p>
 </section>
 </section>
 
@@ -588,9 +872,11 @@
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lernziele">Lernziele</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polynome">Polynome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#potenzfunktionen">Potenzfunktionen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lineare-funktionen">Lineare Funktionen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quadratische-funktionen">Quadratische Funktionen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polynome">Polynome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
 </ul>
   </nav></div>
 
