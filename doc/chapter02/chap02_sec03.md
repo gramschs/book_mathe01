@@ -1,5 +1,9 @@
 # 2.3 Potenzfunktionen und Polynome
 
+Nach den Grundlagen zu Funktionen widmen wir uns nun den wichtigsten
+Funktionstypen: Potenzfunktionen und Polynome bilden die Grundbausteine für
+viele mathematische Modelle.
+
 ## Lernziele
 
 ```{admonition} Lernziele Polynome
@@ -50,15 +54,35 @@ positiv oder negativ ist, öffnet sich die Parabel nach oben oder unten.
 * Für $n=3$ ergibt sich eine kubische Funktion: $f(x) = a \cdot x^3$. Diese hat
 einen charakteristischen S-förmigen Verlauf und wechselt ihr Krümmungsverhalten.
 
+```{figure} pics/power_function_positive_exponent.svg
+---
+name: power_function_positive_exponent
+---
+Graphen von Potenzfunktionen mit positiven Exponenten: links ungerade, rechts gerade Exponenten
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
+
 **Negative Exponenten ($n = -1, -2, -3, \ldots$):**
 
-Für negative Exponenten können wir die Potenzfunktion auch als Bruch schreiben:
+Für negative Exponenten $n$ können wir die Potenzfunktion auch als Bruch
+schreiben:
   
   $$f(x) = a \cdot x^{-n} = \frac{a}{x^n}.$$
 
 Diese Funktionen sind bei $x=0$ nicht definiert und nähern sich für $x \to 0$
 dem Wert $\pm\infty$. Ein Beispiel ist die Hyperbel $f(x) = \frac{1}{x}$
 (entspricht $n=-1$).
+
+```{figure} pics/power_functions_negative.svg
+---
+name: power_functions_negative
+---
+Graphen von Potenzfunktionen mit einem negativen Exponenten: links ungerade,
+rechts gerade Exponenten
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
 
 **Rationale Exponenten (Wurzelfunktionen):**
 
@@ -67,14 +91,34 @@ Wurzelfunktionen mit der Definitionsmenge $D = [0; \infty)$:
 
 $$f(x) = x^{\frac{1}{2}} = \sqrt{x}.$$
 
-Eine Kugelbahn mit einer Wurzelfunktion als Profil würde am Anfang steil
-abfallen und dann immer flacher werden.
+Eine Kugelbahn mit einer Wurzelfunktion wie beispielsweise $f(x)=-\sqrt{x}$ als
+Profil würde am Anfang steil abfallen und dann immer flacher werden.
+
+```{figure} pics/power_functions_fraction.svg
+---
+width: 75%
+name: power_functions_fraction
+---
+Graphen von Potenzfunktionen mit einem Bruch als Exponent
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
+
+Hinweis: Der Exponent der Potenzfunktion kann eine beliebige reelle Zahl sein.
+Aber die Wahl des Exponten bestimmt die Definitionsmenge der Potenzfunktion, wie
+auch das folgende Video erläutert.
+
+```{dropdown} Video "Wie unterscheiden sich Definitionsmengen von Potenzfunktionen?" von studiVEMINT
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-kESjJCklk0?si=TBIXSdivHv3lOhdZ"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
 
 ## Lineare Funktionen
 
 Im letzten Kapitel haben wir bereits eine lineare Funktion kennengelernt: Die
 Höhenfunktion unserer geraden Kugelbahn war $h(x) = -\frac{1}{4}x + 6$. Diese
-Funktion enthält neben der Potenzfunktionen mit dem Exponenten $n=1$ noch einen
+Funktion enthält neben der Potenzfunktion mit dem Exponenten $n=1$ noch einen
 zusätzlichen konstanten Term.
 
 Lineare Funktionen sind die einfachsten nichtkonstanten Funktionen und spielen
@@ -103,7 +147,7 @@ Die Steigung lässt sich geometrisch über das sogenannte Steigungsdreieck
 bestimmen. Wenn wir von einem Punkt $(x_1, y_1)$ zu einem anderen Punkt $(x_2,
 y_2)$ auf der Geraden gehen, dann gilt:
 
-$$m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}​​.$$
+$$m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2-x_1}.$$
 
 Bei unserer Kugelbahn bedeutet eine Steigung von $m=-\frac{1}{4}$: Wenn die
 Kugel 4 cm nach rechts rollt, sinkt sie um 1 cm.
@@ -259,6 +303,16 @@ Beispiele:
 * $h(x) = x^3 - 4x^2 + x - 7$ ist ein Polynom vom Grad 3 (kubisches Polynom)
 * $k(x) = -0.5x^4 + 2x^3 - x + 5$ ist ein Polynom vom Grad 4
 
+```{figure} pics/examples.svg
+---
+width: 75%
+name: examples
+---
+Graphen von Polynomen
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
+
 Die Koeffizienten $a_0, a_1, \ldots, a_n$ bestimmen die genaue Form der Kurve.
 Besonders wichtig ist der Leitkoeffizient $a_n$: Er entscheidet, wie sich das
 Polynom für sehr große oder sehr kleine x-Werte verhält:
@@ -280,8 +334,17 @@ Beispiel: Eine Kugelbahn mit dem Höhenprofil
 $$h(x) = -0.001x^3 + 0.05x^2 - 0.5x + 6$$
 
 ist ein Polynom vom Grad 3. Diese Funktion beschreibt eine Bahn, die zunächst
-abfällt, dann vielleicht einen flachen Bereich durchläuft und schließlich wieder
-steiler wird.
+abfällt und schließlich wieder steiler wird.
+
+```{figure} pics/example_marble_track.svg
+---
+width: 75%
+name: example_marble_track
+---
+Polynom 3. Grades zur Modellierung einer Kugelbahn
+(Quelle: eigene Darstellung; Lizenz: [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0))
+```
 
 Polynome verallgemeinern die Funktionen, die wir bereits kennengelernt haben.
 Potenzfunktionen sind Polynome mit nur einem Term. Lineare Funktionen sind
@@ -289,6 +352,14 @@ Polynome vom Grad 1. Quadratische Funktionen sind Polynome vom Grad 2.
 
 ```{dropdown} Video "Polynome" von Mathematische Methoden
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bUSOKjICFqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+```{dropdown} Video "Polynome: Einführung" von HM Kompakt
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J47qphMgz70?si=98dWZZMBkCAYk47V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+```{dropdown} Video "Polynome: Festlegung" von HM Kompakt
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MAf8Dw4Te7c?si=jT9aH4M_BNSlmiCj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
 
 ## Zusammenfassung und Ausblick
