@@ -1,6 +1,6 @@
 # Project specific settings
-doc/_build
-doc/.vscode/
+_build
+.vscode/
 src/*/media
 
 # Byte-compiled / optimized / DLL files
@@ -163,3 +163,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+# MyST build outputs
+_build
