@@ -22,6 +22,7 @@ project:
       children:
         - file: chapter01/chap01_sec01A.md
         - file: chapter01/chap01_sec01B.md
+        - file: chapter01/chap01_sec01C.md
         - file: chapter01/chap01_sec02.md
         - file: chapter01/chap01_sec03.md
         - file: chapter01/chap01_sec04.md
