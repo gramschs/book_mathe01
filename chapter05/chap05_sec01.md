@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 5.1 Geraden
 
 Bisher haben wir Geraden in einer Ebene betrachtet. In diesem Kapitel wollen wir
@@ -7,10 +12,10 @@ Geraden im dreidimensionalen euklidischen Raum $\mathbb{R}^3$ kennenlernen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können eine Geradengleichung aufstellen, wenn *ein Punkt und ein
+* [ ] Sie können eine Geradengleichung aufstellen, wenn *ein Punkt und ein
   Richtungsvektor* gegeben sind. Diese Form der Geradengleichung nennt man
   **Parameterdarstellung einer Geraden**.
-* Sie können eine Geradengleichung aufstellen, wenn *zwei Punkte* gegeben sind.
+* [ ] Sie können eine Geradengleichung aufstellen, wenn *zwei Punkte* gegeben sind.
 ```
 
 ## Parameterdarstellung einer Geraden

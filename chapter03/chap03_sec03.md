@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 3.3 Vektoren in der Geometrie
 
 n-Tupel können in der Geometrie genutzt werden, um die Position von Punkten in
@@ -10,11 +15,11 @@ lösen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die Vektoren des reellen Standardvektorraumes als Bewegungen bzw.
+* [ ] Sie können die Vektoren des reellen Standardvektorraumes als Bewegungen bzw.
   Verschiebungen in der Geometrie interpretieren.
-* Sie können die Vektoraddition geometrisch als Hintereinanderausführung von
+* [ ] Sie können die Vektoraddition geometrisch als Hintereinanderausführung von
   Verschiebungen verstehen und anwenden.
-* Sie können die Skalarmultiplikation als Streckung oder Stauchung einer
+* [ ] Sie können die Skalarmultiplikation als Streckung oder Stauchung einer
   Verschiebung interpretieren. Multiplikation mit einem negativen Skalar führt
   zu einer Umorientierung.
 ```

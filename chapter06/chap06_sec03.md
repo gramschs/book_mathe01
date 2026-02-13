@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 6.3 Matrizenaddition
 
 In den letzten beiden Kapiteln haben wir gelernt, was Matrizen sind, und
@@ -8,7 +13,7 @@ ersten Mal mit Matrizen rechnen.
 
 ```{admonition} Lernziele
 :class: attention
-Sie können zwei Matrizen **addieren**, also die Summe zweier Matrizen bilden.
+* [ ] Sie können zwei Matrizen **addieren**, also die Summe zweier Matrizen bilden.
 ```
 
 ## Addition zwei Matrizen

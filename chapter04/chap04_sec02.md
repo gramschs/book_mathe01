@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 4.2 Skalarprodukt
 
 In diesem Kapitel werden wir uns mit dem Skalarprodukt beschäftigen. Zunächst
@@ -7,9 +12,9 @@ führen wir es für reelle Standardvektorräume $\mathbb{R}^n$ ein.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was das **Skalarprodukt** im reellen Standardvektorraum $\mathbb{R}^n$ ist.
-* Sie können das Skalarprodukt berechnen.
-* Sie kennen wichtige Eigenschaften des Skalarproduktes wie beispielsweise
+* [ ] Sie wissen, was das **Skalarprodukt** im reellen Standardvektorraum $\mathbb{R}^n$ ist.
+* [ ] Sie können das Skalarprodukt berechnen.
+* [ ] Sie kennen wichtige Eigenschaften des Skalarproduktes wie beispielsweise
   * **positive Definitheit**,
   * **Symmetrie** und
   * **Bilinearität**.

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 3.1 Koordinaten und Koordinatensysteme
 
 In den Ingenieurwissenschaften ist es essentiell, die Position von Objekten und
@@ -11,14 +16,14 @@ festzulegen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können mit eigenen Worten erklären, was ein **n-Tupel** ist.
-* Sie wissen, was **Koordinaten** sind.
-* Sie können erklären, was ein **Koordinatensystem** ist.
-* Sie kennen das zweidimensionale und dreidimensionale **kartesische
+* [ ] Sie können mit eigenen Worten erklären, was ein **n-Tupel** ist.
+* [ ] Sie wissen, was **Koordinaten** sind.
+* [ ] Sie können erklären, was ein **Koordinatensystem** ist.
+* [ ] Sie kennen das zweidimensionale und dreidimensionale **kartesische
   Koordinatensystem**.
-* Sie können bei dreidimensionalen kartesischen Koordinatensystemen ein
+* [ ] Sie können bei dreidimensionalen kartesischen Koordinatensystemen ein
   **Rechtssystem** von einem **Linkssystem** unterscheiden.
-* Sie können Punkte in ein **Polarkoordinatensystem** einzeichnen und daraus
+* [ ] Sie können Punkte in ein **Polarkoordinatensystem** einzeichnen und daraus
   ablesen.
 ```
 

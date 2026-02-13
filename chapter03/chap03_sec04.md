@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 3.4 Affine Punkträume
 
 Nachdem wir gelernt haben, wie Punkte bezüglich eines Koordinatensystems durch
@@ -8,8 +13,8 @@ wir nun beides und führen den sogenannten affinen Punktraum ein.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die Definition eines **affinen Punktraumes** auswendig.
-* Sie wissen, wie Punkte und Verschiebungsvektoren im $\mathbb{R}^n$ über die
+* [ ] Sie können die Definition eines **affinen Punktraumes** auswendig.
+* [ ] Sie wissen, wie Punkte und Verschiebungsvektoren im $\mathbb{R}^n$ über die
   **Punkt-Vektoraddition** zu einem affinen Punktraum kombiniert werden können.
 ```
 

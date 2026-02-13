@@ -1,13 +1,18 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 12.2 Bestimmtes Integral
 
 ## Lernziele
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können mit Hilfe der Stammfunktionen ein **bestimmtes Integral** der
+* [ ] Sie können mit Hilfe der Stammfunktionen ein **bestimmtes Integral** der
   Funktion $f$ in einem Intervall $[a,b]$ berechnen (Hauptsatz der Differential-
   und Integralrechnung).
-* Sie wissen, wie das bestimmte Integral mathematisch abgekürzt wird, nämlich
+* [ ] Sie wissen, wie das bestimmte Integral mathematisch abgekürzt wird, nämlich
   $\int_{a}^{b} f(x) \, dx$, und können die einzelnen Bestandteile dieser
   Notation bezeichnen:
   * Integralsymbol $\int$,

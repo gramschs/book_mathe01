@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 12.6 Integralfunktionen und das uneigentliche Integral
 
 Das bestimmte Intgeral liefert eine Zahl. Wir können das bestimmte Integral auch
@@ -9,8 +14,8 @@ erhalten wir die sogenannte Integralfunktion.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was eine **Integralfunktion** ist.
-* Sie kennen **uneigentliche Integrale**.
+* [ ] Sie wissen, was eine **Integralfunktion** ist.
+* [ ] Sie kennen **uneigentliche Integrale**.
 ```
 
 ## Was ist die Integralfunktion?

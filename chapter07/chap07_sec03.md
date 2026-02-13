@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 7.3 Orthogonale Matrizen
 
 Orthogonale Matrizen spielen eine wichtige Rolle zur Beschreibung von Drehungen
@@ -9,8 +14,8 @@ Anwendungsmöglichkeiten erläutert.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was eine **orthogonale** Matrix ist.
-* Sie kennen die wichtigsten **Eigenschaften von orthogonalen Matrizen**.
+* [ ] Sie wissen, was eine **orthogonale** Matrix ist.
+* [ ] Sie kennen die wichtigsten **Eigenschaften von orthogonalen Matrizen**.
 ```
 
 ## Orthogonale Matrix

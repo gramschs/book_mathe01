@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 5.4 Lagebeziehungen Geraden und Ebenen
 
 Nun werden wir uns mit der Lagebeziehung von Geraden und Ebenen beschäftigen.
@@ -11,24 +16,24 @@ Dabei berücksichtigen wir die drei möglichen Kombinationen:
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können berechnen, ob zwei Geraden
+* [ ] Sie können berechnen, ob zwei Geraden
   * identisch sind,
   * parallel sind,
   * sich schneiden oder
   * windschief sind.
-* Falls sich zwei Geraden schneiden, können Sie den Schnittpunkt der beiden
+* [ ] Falls sich zwei Geraden schneiden, können Sie den Schnittpunkt der beiden
   Geraden bestimmen.
-* Sie können berechnen, ob eine Gerade
+* [ ] Sie können berechnen, ob eine Gerade
   * in einer Ebene liegt,
   * parallel zur Ebene liegt oder
   * die Ebene schneidet.
-* Falls eine Gerade eine Ebene schneidet, können Sie den Schnittpunkt von der
+* [ ] Falls eine Gerade eine Ebene schneidet, können Sie den Schnittpunkt von der
   Geraden mit der Ebenen bestimmen.
-* Sie können berechnen, ob zwei Ebenen
+* [ ] Sie können berechnen, ob zwei Ebenen
   * identisch sind,
   * parallel sind oder
   * sich schneiden.
-* Falls zwei Ebenen sich schneiden, können Sie die Schnittgerade der beiden
+* [ ] Falls zwei Ebenen sich schneiden, können Sie die Schnittgerade der beiden
   Ebenen bestimmen.
 ```
 

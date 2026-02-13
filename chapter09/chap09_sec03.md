@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 9.3 Rechnen mit konvergenten Folgen
 
 Konvergieren Folgen, darf mit ihnen bzw. ihren Grenzwerten gerechnet werden. So
@@ -9,28 +14,17 @@ Grenzwerten von einfacheren Folgen zusammengesetzt werden.
 ```{admonition} Lernziele
 :class: attention
 Sie kennen die folgenden Rechenregeln für das Rechnen mit Grenzwerten von Zahlenfolgen und können Sie anwenden:
-* Addition: 
-
+* [ ] Addition: 
 $$\lim_{k\rightarrow\infty} (a_k + b_k) = \left( \lim_{k\rightarrow\infty}a_k\right) + \left(\lim_{k\rightarrow\infty}b_k\right) = a + b$$
-
-* Subtraktion: 
-
+* [ ] Subtraktion: 
 $$\lim_{k\rightarrow\infty} (a_k - b_k) = \left(\lim_{k\rightarrow\infty}a_k\right) - \left(\lim_{k\rightarrow\infty}b_k\right) = a-b$$
-
-* Multiplikation: 
-
+* [ ] Multiplikation: 
 $$\lim_{k\rightarrow\infty} (a_k \cdot b_k) = \left(\lim_{k\rightarrow\infty}a_k\right) \cdot \left(\lim_{k\rightarrow\infty} b_k\right) = a\cdot b$$
-
-* Division (falls $b_k \neq 0$ und $b\neq 0$): 
-
+* [ ] Division (falls $b_k \neq 0$ und $b\neq 0$): 
 $$\lim_{k\rightarrow\infty}\left(\frac{a_k}{b_k}\right) = \frac{\lim_{k\rightarrow\infty} a_k}{\lim_{k\rightarrow\infty} b_k} = \frac{a}{b}$$
-
-* Potenzierung: 
-
+* [ ] Potenzierung: 
 $$\lim_{k\rightarrow\infty} \left( a_k\right)^r = \left(\lim_{k\rightarrow\infty} a_k\right)^r = a^r $$
-
-* Einschließungsprinzip oder Sandwich-Regel: Ist die Folge $(c_k)$ zwischen $(a_k)$ und $(b_k)$ eingeschlossen, d.h. für alle Folgenglieder gilt $a_k \leq c_k \leq b_k$, dann liegt auch ihr Grenzwert zwischen den beiden anderen Grenzwerten: 
-
+* [ ] Einschließungsprinzip oder Sandwich-Regel: Ist die Folge $(c_k)$ zwischen $(a_k)$ und $(b_k)$ eingeschlossen, d.h. für alle Folgenglieder gilt $a_k \leq c_k \leq b_k$, dann liegt auch ihr Grenzwert zwischen den beiden anderen Grenzwerten: 
 $$ a \leq \lim_{k\rightarrow\infty} c_k \leq b.$$
 ```
 

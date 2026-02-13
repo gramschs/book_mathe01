@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 11.5 Extremwerte
 
 In diesem Kapitel betrachten wir einzelne Punkte des Funktionsgraphens, die eine
@@ -8,9 +13,9 @@ nützlich.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was ein **lokales Minimum** und ein **lokales Maximum** sind.
-* Sie kennen die Bedingungen für ein Minimum, wenn die Funktion differenzierbar ist.
-* Sie kennen die Bedingungen für ein Maximum, wenn die Funktion differenzierbar ist.
+* [ ] Sie wissen, was ein **lokales Minimum** und ein **lokales Maximum** sind.
+* [ ] Sie kennen die Bedingungen für ein Minimum, wenn die Funktion differenzierbar ist.
+* [ ] Sie kennen die Bedingungen für ein Maximum, wenn die Funktion differenzierbar ist.
 ```
 
 ## Minimum und Maximum

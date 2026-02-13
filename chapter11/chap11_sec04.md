@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 11.4 Monotonie und Krümmung
 
 Als nächstes betrachten wir Monotonie und Krümmung.
@@ -6,11 +11,11 @@ Als nächstes betrachten wir Monotonie und Krümmung.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was **höhere Ableitungen** sind.
-* Die erste Ableitung an der Stelle $x_0$ beschreibt das **Monotonieverhalten**
+* [ ] Sie wissen, was **höhere Ableitungen** sind.
+* [ ] Die erste Ableitung an der Stelle $x_0$ beschreibt das **Monotonieverhalten**
   einer Funktion $f$ in der unmittelbaren Umgebung von $x_0$. Ist $f'(x_0)<0$,
   dann fällt die Funktion. Ist $f'(x_0)>0$, dann wächst die Funktion.
-* Die zweite Ableitung an der Stelle $x_0$ beschreibt das **Krümmungsverhalten**
+* [ ] Die zweite Ableitung an der Stelle $x_0$ beschreibt das **Krümmungsverhalten**
   der Funktion in der näheren Umgebung von $x_0$. Ist $f''(x_0)<0$, so haben wir
   Rechtskrümmung. Ist $f''(x_0)>0$, so Linkskrümmung.
 ```

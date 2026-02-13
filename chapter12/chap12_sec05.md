@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 12.5 Integration durch Substitution
 
 Auch verkettete Funktionen lassen sich nicht so einfach integrieren. Wenn $F$
@@ -12,11 +17,9 @@ Die Umkehrung davon ist die Integration durch Substitution.
 
 ```{admonition} Lernziele
 :class: attention
-Sie können die Substitutionsregel
-
+* [ ] Sie können die Substitutionsregel
 $$\int_{a}^{b} f(g(x))\cdot g^{\prime}(x) \, dx = \int_{g(a)}^{g(b)} f(z) \,
 dz$$
-
 anwenden.
 ```
 

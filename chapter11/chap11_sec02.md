@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 11.2 Regel von Bernoulli-de L'Hospital
 
 Die Regel von Bernoulli-de L'Hospital erlaubt die Berechnung von
@@ -8,9 +13,9 @@ wird auch nur der kürzere Name Regel von L'Hospital verwendet.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die Regel von Bernoulli-de L'Hospital anwenden, um Grenzwerte
+* [ ] Sie können die Regel von Bernoulli-de L'Hospital anwenden, um Grenzwerte
   auszurechnen.
-* Sie wissen, dass sich die Sinusfunktion für kleine Werte $x$ wie $x$ selbst
+* [ ] Sie wissen, dass sich die Sinusfunktion für kleine Werte $x$ wie $x$ selbst
   verhält, also $\lim_{x\rightarrow 0} \frac{\sin(x)}{x} = 1.$
 ```
 

@@ -16,6 +16,5 @@ Frankfurt UAS
 
 ![Mathematics](title.png)
 
-Dieses Vorlesungsskript unterstützt die Mathematik 1.
-
-{button}`toc`
+Dieses Vorlesungsskript unterstützt die Vorlesung Mathematik 1 in den
+ingenieurwissenschaftlichen Studiengängen der Frankfurt UAS.

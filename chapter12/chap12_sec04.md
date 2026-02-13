@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 12.4 Partielle Integration
 
 Wird ein Produkt abgeleitet, ist es etwas komplizierter. Es darf nicht einfach
@@ -14,12 +19,10 @@ offiziell **partielle Integration** heißt.
 
 ```{admonition} Lernziele
 :class: attention
-Sie können ein Produkt von zwei Funktionen $u\cdot v$ mit der partiellen
+* [ ] Sie können ein Produkt von zwei Funktionen $u\cdot v$ mit der partiellen
 Integrationsregel im Intervall $[a,b]$ integrieren:
-
-$$\int_{a}^{b} u(x) \cdot
-v'(x) \, dx = \big[u(x)\cdot v(x)\big]_{a}^{b}
-- \int_{a}^{b} u'(x) \cdot v(x) \, dx.$$
+$$\int_{a}^{b} u(x) \cdot v'(x) \, dx = \big[u(x)\cdot v(x)\big]_{a}^{b} -
+\int_{a}^{b} u'(x) \cdot v(x) \, dx.$$
 ```
 
 ## Integrieren von Produkten

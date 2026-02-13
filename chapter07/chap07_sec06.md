@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 7.6 Eigenwerte und Eigenvektoren von 3x3-Matrizen
 
 In diesem Kapitel werden wir die Berechnung von Eigenwerten und Eigenvektoren
@@ -8,7 +13,7 @@ vorstellen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die **Eigenwerte** und **Eigenvektoren** einer $3\times 3$-Matrix
+* [ ] Sie können die **Eigenwerte** und **Eigenvektoren** einer $3\times 3$-Matrix
   berechnen.
 ```
 

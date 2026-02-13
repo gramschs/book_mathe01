@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 4.4 Anwendungen Skalarprodukt
 
 In Physik und Technischer Mechanik wird das Skalarprodukt häufig in seiner
@@ -8,12 +13,12 @@ Folgenden beschäftigen wir uns mit den wichtigsten Anwendungen davon.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können überprüfen, ob zwei Vektoren **kollinear** sind.
-* Sie kennen das **Orthogonalitätskriterium** und können mit dem Skalarprodukt
+* [ ] Sie können überprüfen, ob zwei Vektoren **kollinear** sind.
+* [ ] Sie kennen das **Orthogonalitätskriterium** und können mit dem Skalarprodukt
   überpüfen, ob zwei Vektoren orthogonal $\perp$ (= senkrecht zueinander) sind.
-* Sie können die **senkrechte Projektion** eines Vektors auf einen anderen
+* [ ] Sie können die **senkrechte Projektion** eines Vektors auf einen anderen
   Vektor berechnen.
-* Sie können die **Richtungswinkel** eines Vektors mit den Koordinatenachsen
+* [ ] Sie können die **Richtungswinkel** eines Vektors mit den Koordinatenachsen
   berechnen.
 ```
 

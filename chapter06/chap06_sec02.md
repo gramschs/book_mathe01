@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 6.2 Besondere Matrizen
 
 Einige Matrizen haben eine besondere Struktur oder spezielle Zahlenwerte und
@@ -10,10 +15,10 @@ die Diagonalmatrix und die Einheitsmatrix sowie die Dreiecksmatrix.
 ```{admonition} Lernziele
 :class: attention
 Sie kennen die besonderen Matrizen
-* **Nullmatrix**,
-* **Diagonalmatrix**,
-* **Einheitsmatrix** und
-* **untere Dreiecksmatrix** bzw. **obere Dreiecksmatrix**.
+* [ ] **Nullmatrix**,
+* [ ] **Diagonalmatrix**,
+* [ ] **Einheitsmatrix** und
+* [ ] **untere Dreiecksmatrix** bzw. **obere Dreiecksmatrix**.
 ```
 
 ## Nullmatrix

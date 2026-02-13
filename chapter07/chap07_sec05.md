@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 7.5 Eigenwerte und Eigenvektoren (2x2-Matrix)
 
 Eigenwerte und Eigenvektoren bieten eine Möglichkeit, schwingende Systeme zu
@@ -8,9 +13,9 @@ Eigenvektoren für $2\times 2$-Matrizen erklärt.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie kennen die Definition des Fachbegriffes **Eigenwert** und wissen, was ein
+* [ ] Sie kennen die Definition des Fachbegriffes **Eigenwert** und wissen, was ein
   **Eigenvektor** ist.
-* Sie können die Eigenwerte und Eigenvektoren einer $2\times 2$-Matrix
+* [ ] Sie können die Eigenwerte und Eigenvektoren einer $2\times 2$-Matrix
   berechnen.
 ```
 

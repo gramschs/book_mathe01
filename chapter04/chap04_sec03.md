@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 4.3 Geometrische Interpretation Skalarprodukt
 
 In diesem Kapitel werden wir das Skalarprodukt für Vektoren in der Geometrie
@@ -9,24 +14,18 @@ Koordinatensystems als Vektoren des Standardvektorraumes $\mathbb{R}^3$ dar.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie kennen den Zusammenhang zwischen Skalarprodukt und Betrag/Länge eines
+* [ ] Sie kennen den Zusammenhang zwischen Skalarprodukt und Betrag/Länge eines
   Vektors: 
-
   $$|\vec{a}|=\sqrt{\vec{a}\cdot\vec{a}}.$$
-
-* Sie wissen, welche Bedeutung das **Skalarprodukt** zweier Vektoren **geometrisch**
+* [ ] Sie wissen, welche Bedeutung das **Skalarprodukt** zweier Vektoren **geometrisch**
   hat: Das Skalarprodukt der Vektoren $\vec{a}$ und $\vec{b}$
   ist das Produkt aus den Längen der beiden Vektoren und dem Kosinus des von den
   beiden Vektoren eingeschlossenen Winkels $\varphi = \angle (\vec{a},\vec{b})$:
-
   $$\vec{a}\cdot\vec{b} = |\vec{a}|\cdot|\vec{b}| \cdot \cos(\varphi).$$
-
-* Sie können den **Winkel zwischen zwei Vektoren** berechnen, wenn Sie das
+* [ ] Sie können den **Winkel zwischen zwei Vektoren** berechnen, wenn Sie das
   Skalarprodukt und die beiden Längen kennen:
-
   $$\varphi = \arccos\left(\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}\right),
   \quad \vec{a}\neq\vec{0}, \vec{b}\neq\vec{0}.$$
-
 ```
 
 ## Skalarprodukt und Betrag/Länge von Vektoren

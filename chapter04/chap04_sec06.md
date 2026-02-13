@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 4.6 Spatprodukt
 
 Das Vektorprodukt existiert nur im dreidimensionalen Standardvektorraum
@@ -10,9 +15,9 @@ $\mathbb{R}^3$. Es beschreibt das orientierte Volumen eines Spats.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was ein **Spat** ist.
-* Sie können das **Spatprodukt** dreier Vektoren in Koordinaten ausrechnen.
-* Sie wissen, dass das Spatprodukt das **orientierte Volumen** des Spats angibt.
+* [ ] Sie wissen, was ein **Spat** ist.
+* [ ] Sie können das **Spatprodukt** dreier Vektoren in Koordinaten ausrechnen.
+* [ ] Sie wissen, dass das Spatprodukt das **orientierte Volumen** des Spats angibt.
 ```
 
 ## Was ist ein Spat?

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 8.2 Addition, Subtraktion und Multiplikation komplexer Zahlen
 
 Komplexe Zahlen sind zusammengesetzte Zahlen, eine Kombination der reellen
@@ -10,14 +15,14 @@ Rechenoperationen in der Gaußschen Zahlenebene eingehen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können zwei komplexe Zahlen in der Normalform **addieren**.
-* Sie können die Addition zweier komplexer Zahlen geometrisch in der Gaußschen
+* [ ] Sie können zwei komplexe Zahlen in der Normalform **addieren**.
+* [ ] Sie können die Addition zweier komplexer Zahlen geometrisch in der Gaußschen
   Zahlenebene interpretieren.
-* Sie können zwei komplexe Zahlen in der Normalform **subtrahieren**.
-* Sie können die Subtraktion zweier komplexer Zahlen geometrisch in der
+* [ ] Sie können zwei komplexe Zahlen in der Normalform **subtrahieren**.
+* [ ] Sie können die Subtraktion zweier komplexer Zahlen geometrisch in der
   Gaußschen Zahlenebene interpretieren.
-* Sie können zwei komplexe Zahlen in der Normalform **multiplizieren**.
-* Sie können die Multiplikation zweier komplexer Zahlen geometrisch in der
+* [ ] Sie können zwei komplexe Zahlen in der Normalform **multiplizieren**.
+* [ ] Sie können die Multiplikation zweier komplexer Zahlen geometrisch in der
   Gaußschen Zahlenebene interpretieren.
 ```
 

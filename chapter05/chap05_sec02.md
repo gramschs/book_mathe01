@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 5.2 Ebenen
 
 Eine Ebene ist ein zweidimensionales, flaches Gebilde im Raum, das unendlich
@@ -9,8 +14,8 @@ Normalengleichung.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können eine Ebene durch ihre **Parametergleichung** beschreiben.
-* Sie können eine Ebene durch ihre **Normalengleichung** beschreiben.
+* [ ] Sie können eine Ebene durch ihre **Parametergleichung** beschreiben.
+* [ ] Sie können eine Ebene durch ihre **Normalengleichung** beschreiben.
 ```
 
 ## Parametergleichung der Ebene

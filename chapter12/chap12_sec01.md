@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 12.1 Stammfunktion
 
 In diesem Abschnitt führen wir zunächst Stammfunktionen ein.
@@ -6,8 +11,8 @@ In diesem Abschnitt führen wir zunächst Stammfunktionen ein.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was eine **Stammfunktion** ist.
-* Sie wissen, dass wenn es eine Stammfunktion gibt, es gleich unendlich viele
+* [ ] Sie wissen, was eine **Stammfunktion** ist.
+* [ ] Sie wissen, dass wenn es eine Stammfunktion gibt, es gleich unendlich viele
   Stammfunktionen gibt, die sich durch eine **Integrationskonstante**
   unterscheiden.
 ```

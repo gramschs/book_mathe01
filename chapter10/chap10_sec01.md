@@ -1,4 +1,6 @@
 ---
+authors:
+  - name: Simone Gramsch
 kernelspec:
   name: python3
   display_name: 'Python 3'
@@ -17,16 +19,16 @@ Steigung einer Sekante) und dann um punktuelle Veränderungen (momentane
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was die **mittlere Änderungsrate** einer zeitabhängigen Größe ist
+* [ ] Sie wissen, was die **mittlere Änderungsrate** einer zeitabhängigen Größe ist
   und können diese berechnen.
-* Sie können den **Differenzenquotienten** einer Funktion berechnen.
-* Sie können den Differenzenquotient als **Steigung der Sekante** geometrisch
+* [ ] Sie können den **Differenzenquotienten** einer Funktion berechnen.
+* [ ] Sie können den Differenzenquotient als **Steigung der Sekante** geometrisch
   interpretieren.
-* Sie wissen, was die **momentane Änderungsrate** einer zeitabhängigen Größe ist
+* [ ] Sie wissen, was die **momentane Änderungsrate** einer zeitabhängigen Größe ist
   und können diese berechnen.
-* Sie können den **Differentialquotienten** bzw. die **Ableitung** einer
+* [ ] Sie können den **Differentialquotienten** bzw. die **Ableitung** einer
   Funktion berechnen.
-* Sie können den Differentialquotient/Ableitung als **Steigung der Tangente**
+* [ ] Sie können den Differentialquotient/Ableitung als **Steigung der Tangente**
   geometrisch interpretieren.
 ```
 

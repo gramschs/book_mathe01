@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 8.4 Komplexe Zahlen in trigonometrischer Form
 
 Im letzen Kapitel haben wir die Multiplikation und Division zweier komplexer
@@ -13,13 +18,13 @@ Zahlenebene.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können eine komplexe Zahl in der **trigonometrische Form** darstellen.
-* Sie können das **Argument** einer komplexen Zahl ausrechnen.
-* Sie können eine komplexe Zahl aus der Normalform in die trigonometrische Form
+* [ ] Sie können eine komplexe Zahl in der **trigonometrische Form** darstellen.
+* [ ] Sie können das **Argument** einer komplexen Zahl ausrechnen.
+* [ ] Sie können eine komplexe Zahl aus der Normalform in die trigonometrische Form
   umrechnen.
-* Sie können eine komplexe Zahl aus der trigonometrischen Form in die Normalform
+* [ ] Sie können eine komplexe Zahl aus der trigonometrischen Form in die Normalform
   umrechnen.
-* Sie können komplexe Zahlen in trigonometrischer Form **multiplizieren** und
+* [ ] Sie können komplexe Zahlen in trigonometrischer Form **multiplizieren** und
   **dividieren**.
 ```
 

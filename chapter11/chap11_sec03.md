@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 11.3 Neigungswinkel / Schnittwinkel
 
 Mit Ableitungen lassen sich geometrische Eigenschaften des Funktionsgraphens
@@ -8,9 +13,9 @@ Schnittwinkel.
 
 ```{admonition} Lernziele
 :class: attention
-* Die erste Ableitung einer Funktion beschreibt den Neigungswinkel an dem Punkt
+* [ ] Die erste Ableitung einer Funktion beschreibt den Neigungswinkel an dem Punkt
   $(x_0, f(x_0))$, also $f'(x_0) = \tan (\alpha)$. 
-* Wenn zwei Funktionen sich in dem Punkt $(x_0,y_0)$ treffen, dann sind sie
+* [ ] Wenn zwei Funktionen sich in dem Punkt $(x_0,y_0)$ treffen, dann sind sie
   senkrecht zueinander, wenn $f'(x_0)\cdot g'(x_0)=-1$ gilt. Und sie berühren
   sich nur, wenn $f'(x_0) = g'(x_0)$.
 ```

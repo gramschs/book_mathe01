@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 8.1 Was sind komplexe Zahlen?
 
 Mit zunehmender Komplexität unseres Alltags wächst auch die Komplexität der
@@ -25,14 +30,14 @@ Bereich der reellen Zahlen hinausgehen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, dass die **imaginäre Einheit** $\mathrm{i}$ durch
+* [ ] Sie wissen, dass die **imaginäre Einheit** $\mathrm{i}$ durch
   $\mathrm{i}^2=-1$ definiert ist.
-* Sie wissen, was eine **imaginäre** Zahl ist.
-* Sie wissen, was eine **komplexe Zahl** ist.
-* Sie wissen, was die **Menge** $\pmb{\mathbb{C}}$ ist.
-* Sie können eine komplexe Zahl in der **Normalform** formulieren.
-* Sie können eine komplexe Zahl in die **Gaußschen Zahlenebene** einzeichnen. 
-* Sie können den **Realteil** und den **Imaginärteil** einer komplexen Zahl
+* [ ] Sie wissen, was eine **imaginäre** Zahl ist.
+* [ ] Sie wissen, was eine **komplexe Zahl** ist.
+* [ ] Sie wissen, was die **Menge** $\pmb{\mathbb{C}}$ ist.
+* [ ] Sie können eine komplexe Zahl in der **Normalform** formulieren.
+* [ ] Sie können eine komplexe Zahl in die **Gaußschen Zahlenebene** einzeichnen. 
+* [ ] Sie können den **Realteil** und den **Imaginärteil** einer komplexen Zahl
   bestimmen.
 ```
 

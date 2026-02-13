@@ -1,23 +1,21 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 10.3 Faktor-, Summen- und Produktregel
 
 ## Lernziele
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die **Faktorregel** anwenden, d.h. 
-
+* [ ] Sie können die **Faktorregel** anwenden, d.h. 
 $$(C\cdot f(x))' = C\cdot f'(x).$$
-
-* Sie können die **Summenregel** anwenden: wird eine Summe von differenzierbaren Funktionen abgeleitet, so darf man jede Funktion einzeln ableiten, d.h. 
-
+* [ ] Sie können die **Summenregel** anwenden: wird eine Summe von differenzierbaren Funktionen abgeleitet, so darf man jede Funktion einzeln ableiten, d.h. 
 $$(f(x)+g(x))' = f'(x) + g'(x).$$ 
-
-* Das gilt auch für Differenzen entsprechend mit einem Minuszeichen
-
+* [ ] Das gilt auch für Differenzen entsprechend mit einem Minuszeichen
 $$(f(x)-g(x))' = f'(x) - g'(x).$$ 
-
-* Sie können die **Produktregel** anwenden, d.h. 
-
+* [ ] Sie können die **Produktregel** anwenden, d.h. 
 $$(f(x)\cdot g(x))' = f'(x)\cdot g(x)+ f(x)\cdot g'(x).$$
 ```
 

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 5.5 Abstände
 
 In diesem Kapitel vertiefen wir das Thema Lagebeziehungen von Geraden und Ebenen
@@ -9,13 +14,13 @@ Daher beschäftigen wir uns in diesem Kapitel mit Abstandsberechnungen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie kennen die Begriffe **Lot** und **Lotfußpunkt**.
-* Sie können den Abstand eines Punktes zu einer Ebene berechnen.
-* Sie können den Abstand eines Punktes zu einer Geraden berechnen.
-* Sie können den Abstand von Geraden zueinander berechnen. Bei windschiefen
+* [ ] Sie kennen die Begriffe **Lot** und **Lotfußpunkt**.
+* [ ] Sie können den Abstand eines Punktes zu einer Ebene berechnen.
+* [ ] Sie können den Abstand eines Punktes zu einer Geraden berechnen.
+* [ ] Sie können den Abstand von Geraden zueinander berechnen. Bei windschiefen
   Geraden können Sie zusätzlich die Lotfußpunkte berechnen.
-* Sie können den Abstand von Geraden zu Ebenen berechnen.
-* Sie können den Abstand zweier Ebenen zueinander berechnen.
+* [ ] Sie können den Abstand von Geraden zu Ebenen berechnen.
+* [ ] Sie können den Abstand zweier Ebenen zueinander berechnen.
 ```
 
 ## Lot und Lotfußpunkt

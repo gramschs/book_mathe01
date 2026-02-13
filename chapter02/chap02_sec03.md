@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 2.3 Potenzfunktionen und Polynome
 
 Nach den Grundlagen zu Funktionen widmen wir uns nun den wichtigsten
@@ -8,13 +13,13 @@ viele mathematische Modelle.
 
 ```{admonition} Lernziele Polynome
 :class: attention
-* Sie wissen, was eine **Potenzfunktion** ist ($f(x) = a \cdot x^n$) und kennen
+* [ ] Sie wissen, was eine **Potenzfunktion** ist ($f(x) = a \cdot x^n$) und kennen
   ihr Verhalten für verschiedene Exponenten.
-* Sie kennen **lineare Funktionen** und können deren Graphen skizzieren. Sie
+* [ ] Sie kennen **lineare Funktionen** und können deren Graphen skizzieren. Sie
   wissen, was **Steigung** und **Achsenabschnitt** bedeuten.
-* Sie kennen **quadratische Funktionen** und können deren Graphen skizzieren.
+* [ ] Sie kennen **quadratische Funktionen** und können deren Graphen skizzieren.
   Sie wissen, was der **Scheitelpunkt** ist.
-* Sie wissen, dass ein **Polynom** eine Summe von Potenzfunktionen ist und
+* [ ] Sie wissen, dass ein **Polynom** eine Summe von Potenzfunktionen ist und
   kennen die Begriffe **Grad** und **Koeffizienten**.
 ```
 

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 2.1 Funktionen - Grundlagen und Definitionen
 
 Die Höhe einer Kugel, die eine Kugelbahn durchläuft - wie können wir diese
@@ -10,10 +15,10 @@ um technische Zusammenhänge präzise zu erfassen.
 
 ```{admonition} Lernziele Funktionen
 :class: attention
-* Sie wissen, wie in der Mathematik eine **Funktion** definiert wird.
-* Sie können die **Definitionsmenge** und **Wertemenge** einer Funktion
+* [ ] Sie wissen, wie in der Mathematik eine **Funktion** definiert wird.
+* [ ] Sie können die **Definitionsmenge** und **Wertemenge** einer Funktion
   bestimmen.
-* Sie kennen die verschiedenen Darstellungsformen einer Funktion wie
+* [ ] Sie kennen die verschiedenen Darstellungsformen einer Funktion wie
   **Wertetabelle**, **Funktionsgleichung** und **Funktionsgraph**.
 ```
 

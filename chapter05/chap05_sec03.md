@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 5.3 Lineare Gleichungssysteme
 
 Lineare Gleichungssysteme kommen in vielen Anwendungen vor. Ein typisches
@@ -11,9 +16,9 @@ bestehen.
 
 ```{admonition} Lernziele
 :class: attention
-- Sie wissen, dass ein lineares Gleichungssystem eine **eindeutige Lösung**,
+- [ ] Sie wissen, dass ein lineares Gleichungssystem eine **eindeutige Lösung**,
   **unendlich viele Lösungen** oder **keine Lösung** haben kann.
-- Sie können mit dem **Gauß-Algorithmus** für alle drei Fälle die Lösung(en)
+- [ ] Sie können mit dem **Gauß-Algorithmus** für alle drei Fälle die Lösung(en)
   berechnen.
 ```
 

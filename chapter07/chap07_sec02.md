@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 7.2 Inverse Matrizen
 
 In dem vorangegangenen Kapitel haben wir die Determinante kennengelernt. Mit
@@ -9,11 +14,11 @@ Kapitel das Thema inverse Matrizen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, wann es erlaubt ist, die **inverse Matrix** einer quadratischen
+* [ ] Sie wissen, wann es erlaubt ist, die **inverse Matrix** einer quadratischen
   Matrix zu berechnen und welche Rolle die Determinante dabei spielt.
-* Sie können die **Inverse einer $2\times 2$-Matrix** berechnen.
-* Sie können die **Inverse einer $n\times n$-Matrix** für $n>2$ berechnen.
-* Sie kennen die **Rechenregeln für inverse Matrizen** und können sie anwenden.
+* [ ] Sie können die **Inverse einer $2\times 2$-Matrix** berechnen.
+* [ ] Sie können die **Inverse einer $n\times n$-Matrix** für $n>2$ berechnen.
+* [ ] Sie kennen die **Rechenregeln für inverse Matrizen** und können sie anwenden.
 ```
 
 ## Inverse Matrix von $2\times 2$-Matrizen

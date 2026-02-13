@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 10.6 Ableitung der Umkehrfunktion
 
 Die Ableitung einer Funktion liefert die Steigung ihrer Tangente an einem
@@ -8,11 +13,9 @@ auch ihre Umkehrfunktion betrachten? Wie hängen ihre Ableitungen zusammen?
 
 ```{admonition} Lernziele
 :class: attention
-Sie können die Umkehrfunktion ableiten, also 
-
-$$\left(f^{-1}(y)\right)' = \frac{1}{f'(x)},$$
-
-wobei $y=f(x)$ und $x=f^{-1}(y)$.
+* [ ] Sie können die Umkehrfunktion ableiten, also
+  $$\left(f^{-1}(y)\right)' = \frac{1}{f'(x)},$$
+  wobei $y=f(x)$ und $x=f^{-1}(y)$.
 ```
 
 ## Was ist eine Umkehrfunktion?

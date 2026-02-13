@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 8.5 Komplexe Zahlen in Exponentialform
 
 Im vorherigen Kapitel haben wir die trigonomtrische Form der komplexen Zahlen
@@ -12,13 +17,11 @@ Darstellung leicht gelingt.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie kennen die **eulersche Formel**
-
-    $$e^{\varphi \mathrm{i}} = \cos(\varphi) + \sin(\varphi)\,\mathrm{i}$$
-
+* [ ] Sie kennen die **eulersche Formel**
+  $$e^{\varphi \mathrm{i}} = \cos(\varphi) + \sin(\varphi)\,\mathrm{i}$$
   auswendig.
-* Sie können eine komplexe Zahl in der **Exponentialform** darstellen.
-* Sie können eine komplexe Zahl von der trigonometrischen Form in die
+* [ ] Sie können eine komplexe Zahl in der **Exponentialform** darstellen.
+* [ ] Sie können eine komplexe Zahl von der trigonometrischen Form in die
   Exponentialform umrechnen und umgekehrt.
 ```
 

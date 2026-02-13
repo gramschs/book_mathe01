@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 10.4 Quotientenregel
 
 Die Produktregel hatten wir im letzten Kapitel, jetzt folgt die Quotientenregel.
@@ -6,8 +11,7 @@ Die Produktregel hatten wir im letzten Kapitel, jetzt folgt die Quotientenregel.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die **Quotientenregel** anwenden, d.h. 
-
+* [ ] Sie können die **Quotientenregel** anwenden, d.h. 
 $$\left(\frac{f(x)}{g(x)}\right)' = \frac{f'(x)\cdot g(x) - f(x)\cdot g'(x)}{g(x)^2}.$$
 ```
 

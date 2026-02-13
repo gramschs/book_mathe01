@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 2.2 Eigenschaften von Funktionen
 
 Nachdem wir im vorherigen Kapitel die Grundlagen von Funktionen anhand einer
@@ -12,10 +17,10 @@ Zusammenhänge zu verstehen und zu klassifizieren.
 :class: attention
 Sie kennen die wichtigsten Eigenschaften von mathematischen Funktionen wie
 beispielsweise
-- **Monotonie**,
-- **Symmetrie**,
-- **Periodizität** und
-- **Beschränktheit**.
+- [ ] **Monotonie**,
+- [ ] **Symmetrie**,
+- [ ] **Periodizität** und
+- [ ] **Beschränktheit**.
 ```
 
 ## Monotonie - Steigt oder fällt die Bahn?

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 6.5 Matrizenmultiplikation
 
 Nachdem wir in den vorangegangenen Kapiteln die Addition von Matrizen und die
@@ -9,11 +14,11 @@ erfolgt die Matrizenmultiplikation nicht elementweise *nicht elementweise*.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können zwei Matrizen miteinander multiplizieren.
-* Sie wissen, dass die Matrixmultiplikation *nicht kommutativ* ist, d.h. dass im 
+* [ ] Sie können zwei Matrizen miteinander multiplizieren.
+* [ ] Sie wissen, dass die Matrixmultiplikation *nicht kommutativ* ist, d.h. dass im 
   Allgemeinen $\mathbf{A}\cdot\mathbf{B} \textcolor{red}{\neq}
   \mathbf{B}\cdot\mathbf{A}$ gilt.
-* Sie können die Rechenregeln der Matrizenmultiplikation anwenden, insbesondere
+* [ ] Sie können die Rechenregeln der Matrizenmultiplikation anwenden, insbesondere
   * Assoziativgesetz und
   * Distributivgesetz.
 ```

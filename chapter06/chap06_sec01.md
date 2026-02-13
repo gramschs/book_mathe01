@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 6.1 Was ist eine Matrix?
 
 In diesem Kapitel werden wir zunächst den Begriff **Matrix** und die
@@ -7,18 +12,18 @@ verschiedenen Bestandteile einer Matrix kennenlernen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was eine **Matrix** ist.
-* Sie kennen den Unterschied zwischen einem **Zeilenvektor** und einem
+* [ ] Sie wissen, was eine **Matrix** ist.
+* [ ] Sie kennen den Unterschied zwischen einem **Zeilenvektor** und einem
   **Spaltenvektor**. 
-* Sie können die Teile einer Matrix benennen, d.h. Sie wissen, was die folgenden
+* [ ] Sie können die Teile einer Matrix benennen, d.h. Sie wissen, was die folgenden
   Begriffe bedeuten: 
     * **Element**, 
     * **Zeilenindex**, 
     * **Spaltenindex** und
     * **Hauptdiagonale**.
-* Sie wissen, was die **Dimension** einer Matrix ist und wann zwei Matrizen
+* [ ] Sie wissen, was die **Dimension** einer Matrix ist und wann zwei Matrizen
   **gleich** sind.
-* Sie können beurteilen, ob eine Matrix **quadratisch** ist.
+* [ ] Sie können beurteilen, ob eine Matrix **quadratisch** ist.
 ```
 
 ## Matrix

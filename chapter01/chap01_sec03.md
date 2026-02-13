@@ -1,120 +1,234 @@
-# Videos zu Potenzen, Wurzeln und Logarithmen
+---
+authors:
+  - name: Simone Gramsch
+---
+
+# Rechnen mit Mengen
+
+Mit Mengen können wir genau wie mit Zahlen rechnen. Diese "Rechenregeln"
+erscheinen auf den ersten Blick abstrakt, bilden aber die Grundlage der
+Programmierung, des Baus von elektrischen Schaltungen und der Konstruktion von
+CAD-Objekten.
 
 ## Lernziele
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was die **Potenz** einer reellen Zahl ist.
-* Sie kennen die **Potenzgesetze** und können mit ihnen rechnen.
-* Sie kennen die **Wurzel** einer reellen Zahl und die Rechengesetze für Wurzeln.
-* Sie wissen, was der **Logarithmus** einer reellen Zahl ist.
-* Sie kennen die **Logarithmengesetze** und können sie anwenden.
+* [ ] Sie können die **Schnittmenge** zweier Mengen bilden und als Ergebnis der
+  Operation **logisches UND** interpretieren.
+* [ ] Sie können die **Vereinigungsmenge** zweier Mengen bilden und als Ergebnis
+  der Operation **logisches ODER** interpretieren.
+* [ ] Sie können die **Differenzmenge** zweier Mengen bilden und wissen, was das
+  **Komplement** ist.
 ```
 
-## Potenzen
+## Schnittmenge
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kKvO9qQBx4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Zwei Freunde wollen gemeinsam im Gym trainieren. Anna hat an den folgenden Tagen
+Zeit für das Training:
+
+\begin{equation*}
+A = \{\text{Montag}, \text{Donnerstag}, \text{Samstag},\text{Sonntag}\}.
+\end{equation*}
+
+Bob wiederum kann nur an den Tagen
+
+\begin{equation*}
+B = \{\text{Montag}, \text{Mittwoch}, \text{Freitag}, \text{Sonntag}\}.
+\end{equation*}
+
+Wenn beide gemeinsam trainieren wollen, können sie sich an den Tagen
+
+\begin{equation*}
+A \cap B = \{\text{Montag}, \text{Sonntag}\}
+\end{equation*}
+
+treffen. Diese Menge nennen wir **Schnittmenge**. Die Schnittmenge entsteht
+dadurch, dass wir Tage in Annas Menge durchgehen und überprüfen, ob dieser Tag
+auch in Bobs Menge an möglichen Trainingstagen liegt. Die Schnittmenge ergibt
+sich also dadurch, dass ein Tag der Schnittmenge in Annas Menge **UND** in Bobs
+Menge liegt.
+
+```{figure} pics/fig01_intersection_DE.svg
+---
+width: 100%
+name: fig01_intersection_DE
+---
+Mengendiagramm für den Schnitt $A\cap B$ (Quelle: eigene Darstellung;
+Lizenz [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jjgUh4gPmTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Wir schreiben mathematisch kurz
+
+\begin{equation*}
+A\cap B = \{ x \,|\, x\in A \land x\in B \}.
+\end{equation*}
+
+In Worten: Die Schnittmenge von $A$ und $B$ ist gleich der Menge aller $x$ für
+die gilt, dass $x$ ein Element der Menge $A$ ist *und* $x$ ein Element der Menge
+$B$ ist. Das Symbol $\cap$ steht für Schnittmenge und das Symbol $\land$ steht
+für das logische UND.
+
+Hätten Anna und Bob an keinem Tag gemeinsam Zeit, so wäre die Schnittmenge leer,
+also $A\cap B = \emptyset$ oder $A\cap B=\{\}$.
+
+## Vereinigungsmenge
+
+Es kommt noch eine dritte Freundin hinzu, Charlie trainiert auch gerne im Gym.
+Sie möchte nicht alleine trainieren, aber ob sie mit Anna trainiert oder ob sie
+mit Bob trainiert, ist gleich gut. Die Menge der möglichen Tage, an denen sie
+nicht alleine ins Gym müsste, ist also
+
+\begin{equation*}
+A\cup B=\{\text{Montag}, \text{Mittwoch}, \text{Donnerstag}, \text{Freitag},
+\text{Samstag}, \text{Sonntag}.\}
+\end{equation*}
+
+```{figure} pics/fig01_union_DE.svg
+---
+width: 100%
+name: fig01_union_DE
+---
+Mengendiagramm für die Vereinigung $A\cup B$ (Quelle: eigene Darstellung;
+Lizenz [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5AQ71coAuc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Diese sogenannte **Vereinigungsmenge** ergibt sich also dadurch, dass entweder
+Anna ins Gym geht **ODER** Bob (oder beide wie am Montag bzw. Sonntag). Das
+logische ODER wird mit dem Symbol $\lor$ abgekürzt. Wir können daher die
+Vereinigungsmenge mit dem Symbol $\cup$ mathematisch folgendermaßen notieren:
+
+\begin{equation*}
+A\cup B = \{x \,|\, x\in A \lor x\in B\}.
+\end{equation*}
+
+In Worten: Die Vereinigungsmenge von $A$ und $B$ ist gleich der Menge aller $x$,
+für die gilt, dass $x$ ein Element der Menge $A$ ist *oder* $x$ ein Element der
+Menge $B$ ist.
+
+## Differenz
+
+Leider hat sich Charlie mit Bob zerstritten. Sie möchte weiterhin mit Anna ins
+Gym, aber auf gar keinen Fall Bob dort treffen. Daher bildet sie nun die
+sogenannte **Differenzmenge** $A\setminus B$, um herauszufinden, an welchen
+Tagen sie ins Gym gehen kann. Sie geht Annas Tage durch, streicht den Tag aber,
+wenn er in Bobs Menge auftaucht. Es bleiben Donnerstag und Samstag.
+
+```{figure} pics/fig01_difference_set_DE.svg
+---
+width: 100%
+name: fig01_difference_set_DE
+---
+Mengendiagramm für die Differenz $A\setminus B$ (Quelle: eigene Darstellung;
+Lizenz [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7VCmzqRTgzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In mathematischer Notation schreiben wir die Differenzmenge folgendermaßen:
+
+\begin{equation*}
+A\setminus B=\{\text{Donnerstag}, \text{Samstag}\}.
+\end{equation*}
+
+Allgemein wird die Differenzmenge als
+
+\begin{equation*}
+A\setminus B = \{x \,|\, x\in A \land x\notin B \}
+\end{equation*}
+
+definiert. In Worten ausgedrückt ist die Differenzmenge von $A$ und $B$ die
+Menge aller $x$, für die gilt, dass $x$ in der Menge $A$ ist *und* gleichzeitig
+$x$ nicht in der Menge $B$.
+
+## Komplement
+
+Nach einiger Zeit merkt Charlie, dass sie auch ganz gut alleine trainieren kann.
+Ob Anna dabei ist oder nicht, wird ihr immer weniger wichtig. Nur Bob will sie
+weiterhin nicht antreffen. Wenn sie jetzt die Menge *aller* Wochentage durchgeht,
+also
+
+\begin{equation*}
+W = \{\text{Montag},\text{Dienstag},\text{Mittwoch},\text{Donnerstag},\text{Freitag},
+\text{Samstag}, \text{Sonntag}\}
+\end{equation*}
+
+und dann die Tage streicht, die Bob ins Gym geht, bildet sie das sogenannte
+**Komplement**:
+
+\begin{equation*}
+W\setminus B = \{\text{Dienstag}, \text{Donnerstag}, \text{Samstag}\}.
+\end{equation*}
+
+```{figure} pics/fig01_complement_DE.svg
+---
+width: 100%
+name: fig01_complement_DE
+---
+Mengendiagramm für das Komplement $B^{C}=\bar{B}$ bzgl. $W$ (Quelle:
+eigene Darstellung; Lizenz [CC BY-NC-SA
+4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-e6fLjT3iR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Was ist nun der Unterschied zu einer Differenzmenge? Eine Differenzmenge kann
+zwischen beliebigen Mengen gebildet werden. Beim Komplement hingegen legen wir
+eine Grundmenge (hier alle (!) Wochentage) fest und betrachten die Differenz von
+der Grundmenge mit einer ihrer Teilmengen. Ist die Grundmenge einmal festgelegt,
+können wir das Komplement auch mit $B^{C}$ oder $\bar{B}$ abkürzen, da ja klar
+ist, auf welche Grundmenge sich das Komplement bezieht.
+
+## Weitere Videos
+
+```{dropdown} Video "Vereinigung von Mengen" von Mathematische Methoden
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rodKBh2Fpds"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hNK3f5F80Ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{dropdown} Video "Durchschnitt von Mengen" von Mathematische Methoden
+<iframe width="560" height="315" src="https://www.youtube.com/embed/747oVDmyBG0"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HQZDrEsQ_lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{dropdown} Video "Rechenregeln für Mengen (Teil 1)" von Mathematische Methoden
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nC1aP8Z19K4"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cuCYpxpF5AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{dropdown} Video "Rechenregeln für Mengen (Teil 2)" von Mathematische Methoden
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y1FHPfs8Ajg"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-## Wurzeln
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q7FnS0gnArE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{dropdown} Video "Rechenregeln für Mengen (Teil 3)" von Mathematische Methoden
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sp3MvBWVUH0"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8gPq0SX2pXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{dropdown} Video "Differenz und Komplement" von Mathematische Methoden
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QCvNOcWR2-A"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o6TowgCALpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{dropdown} Video "Menge als Intervall schreiben" von Mathematrick
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ttxzlLllh-c?si=lMfKYXU60oR4BlxI"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wkeCSXbK93g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
+## Zusammenfassung und Ausblick
 
-## Logarithmen
+| Operation | Symbol | Bedeutung | Logik |
+| --------- | ------ | --------- | ----- |
+| Schnittmenge | $\cap$ | Elemente in $A$ **und** $B$ | $\land$ |
+| Vereinigungsmenge | $\cup$ | Elemente in $A$ **oder** $B$ | $\lor$ |
+| Differenzmenge | $\setminus$ | Elemente in $A$, aber nicht in $B$ | |
+| Komplement | $\bar{B}$, $B^C$ | alle Elemente der Grundmenge außer $B$ | |
 
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9eLm_wHa1oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z1puvaDrKaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BoT4fINiKW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C21adlpDy3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Ioe7njmazM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyIY78XKzBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-## Binomische Formeln
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ou5yHNraltI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-```{admonition} Video
-:class: seealso
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EYbvhWEG6kE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
+Nachdem wir nun gelernt haben, wie Mengen durch die Operationen Schnitt,
+Vereinigung und Differenz zu neuen Mengen verknüpft werden können, betrachten
+wir im nächsten Kapitel sehr wichtige Mengen, nämlich die natürlichen Zahlen,
+die ganzen Zahlen, die rationalen und reellen Zahlen.

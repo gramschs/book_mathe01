@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 8.6 Potenzen und Wurzeln komplexer Zahlen
 
 Auf die komplexen Zahlen stießen wir, indem wir versuchten, die Gleichung $z^2 =
@@ -8,8 +13,8 @@ Wurzelziehen für komplexe Zahlen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können eine komplexe Zahl potenzieren.
-* Sie können aus einer komplexen Zahl die Wurzel ziehen.
+* [ ] Sie können eine komplexe Zahl potenzieren.
+* [ ] Sie können aus einer komplexen Zahl die Wurzel ziehen.
 ```
 
 ## Potenzen von komplexen Zahlen

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 3.6 Linearkombination und lineare Unabhängigkeit
 
 In der Technischen Mechanik werden Kräfte oft zerlegt. Die Grundlage dafür
@@ -9,9 +14,9 @@ uns in diesem Kapitel damit näher beschäftigen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was eine **Linearkombination** von Vektoren ist.
-* Sie wissen, was **linear abhängige** und **linear unabhängige** Vektoren sind.
-* Sie können auch testen, ob gegebene Vektoren linear unabhängig sind.
+* [ ] Sie wissen, was eine **Linearkombination** von Vektoren ist.
+* [ ] Sie wissen, was **linear abhängige** und **linear unabhängige** Vektoren sind.
+* [ ] Sie können auch testen, ob gegebene Vektoren linear unabhängig sind.
 ```
 
 ## Linearkombination

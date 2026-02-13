@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 5.6 Winkel
 
 Schneiden sich Gerade und Gerade oder Gerade und Ebene in einem Schnittpunkt
@@ -9,9 +14,9 @@ diesen drei Fällen beschäftigen und die dazugehörigen Winkel berechnen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können den Winkel zwischen zwei Geraden berechnen.
-* Sie können den Winkel zwischen einer Gerade und einer Ebene berechnen.
-* Sie können den Winkel zwischen zwei Ebenen berechnen.
+* [ ] Sie können den Winkel zwischen zwei Geraden berechnen.
+* [ ] Sie können den Winkel zwischen einer Gerade und einer Ebene berechnen.
+* [ ] Sie können den Winkel zwischen zwei Ebenen berechnen.
 ```
 
 ## Winkel zwischen zwei Geraden

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 3.5 Betrag Vektor und Abstand Punkte
 
 Nachdem wir im letzten Kapitel den affinen Punkt kennengelernt haben, führen wir
@@ -8,11 +13,11 @@ Vektorraum ein normierter Raum.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was der **Betrag** eines Vektors ist und können ihn ausrechnen.
-* Sie können den **Einheitsvektor** in Richtung eines Vektors bestimmen
+* [ ] Sie wissen, was der **Betrag** eines Vektors ist und können ihn ausrechnen.
+* [ ] Sie können den **Einheitsvektor** in Richtung eines Vektors bestimmen
   (=**normieren**).
-* Sie können den **Abstand zweier Punkte** berechnen.
-* Sie können den **Mittelpunkt zweier Punkte** berechnen.
+* [ ] Sie können den **Abstand zweier Punkte** berechnen.
+* [ ] Sie können den **Mittelpunkt zweier Punkte** berechnen.
 ```
 
 ## Betrag eines Vektors

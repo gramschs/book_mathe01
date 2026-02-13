@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 6.4 Skalarmultiplikation
 
 Anstatt eine Matrix mehrfach zu sich selbst zu addieren, können wir dies durch
@@ -8,10 +13,10 @@ wir daher die Skalarmultiplikation und die dazugehörigen Rechenregeln.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie sind in der Lage, eine Matrix mit einem Skalar multiplizieren, also eine
+* [ ] Sie sind in der Lage, eine Matrix mit einem Skalar multiplizieren, also eine
   **Skalarmultiplikation** durchführen.
-* Sie können die **Differenz zweier Matrizen** berechnen, also Matrizen subtrahieren.
-* Sie beherrschen die Rechenregeln für die Addition von Matrizen und für die
+* [ ] Sie können die **Differenz zweier Matrizen** berechnen, also Matrizen subtrahieren.
+* [ ] Sie beherrschen die Rechenregeln für die Addition von Matrizen und für die
   Skalarmultiplikation, insbesondere
   * das **Kommutativgesetz**: 
     \begin{equation*}\mathbf{A}+\mathbf{B} = \mathbf{B}+\mathbf{A}\end{equation*},

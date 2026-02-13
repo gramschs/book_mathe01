@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 3.2 Vektoren und Vektorräume
 
 Im letzten Kapitel haben wir n-Tupel kennengelernt. Je nachdem für welche
@@ -9,21 +14,21 @@ Vektorraumes, den wir in diesem Kapitel behandeln werden.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, wie der **reelle Standardvektorraum** definiert ist, d.h. Sie
+* [ ] Sie wissen, wie der **reelle Standardvektorraum** definiert ist, d.h. Sie
   können die
   * **Vektoraddition** und
   * **Skalarmultiplikation** für n-Tupel anwenden.
-* Sie wissen, dass ein Element eines Vektorraumes **Vektor** genannt wird.
-* Sie wissen, wie ein allgemeiner, reeller **Vektorraum** definiert ist.
+* [ ] Sie wissen, dass ein Element eines Vektorraumes **Vektor** genannt wird.
+* [ ] Sie wissen, wie ein allgemeiner, reeller **Vektorraum** definiert ist.
   Insbesondere können Sie die vier Eigenschaften der Vektoraddition und die vier
   Eigenschaften der Skalarmultiplikation nachprüfen.
-* **Eigenschaften der Vektoraddition**:
+* [ ] **Eigenschaften der Vektoraddition**:
   * Assoziativgesetz: $u\oplus(v\oplus w) = (u\oplus v)\oplus w$
   * Existenz eines neutralen Elements $0\in V$ mit $v\oplus 0 = 0\oplus v = v$
   * Existenz eines zu $v\in V$ inversen Elements $-v\in V$ mit $v\oplus (-v)=
     (-v)\oplus v = 0$
   * Kommutativgesetz: $v\oplus u = u \oplus v$
-* **Eigenschaften der Skalarmultiplikation**:
+* [ ] **Eigenschaften der Skalarmultiplikation**:
   * Vektorielles Distributivgesetz: $s\odot(u\oplus v) = (s\odot u) \oplus
     (s\odot v)$
   * Skalares Distributivgesetz: $(s+t)\odot v = (s\odot v) \oplus (t\odot v)$

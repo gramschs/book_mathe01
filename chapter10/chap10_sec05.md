@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 10.5 Kettenregel
 
 Die letzte verbleibende Ableitungsregel lernen wir nun kennen: die
@@ -7,9 +12,8 @@ Ableitungsregel für verkettete Funktionen.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die **Kettenregel** anwenden, d.h. 
-
-$$\left(f(g(x))\right)' = f'\left(g(x)\right) \cdot g'(x).$$
+* [ ] Sie können die **Kettenregel** anwenden, d.h. 
+  $$\left(f(g(x))\right)' = f'\left(g(x)\right) \cdot g'(x).$$
 ```
 
 Wird eine Funktion $g$ in einer andere Funktion $f$ eingesetzt, so nennen wir

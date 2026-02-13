@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 11.1 Linearisierung
 
 Die Welt, in der wir leben, ist selten linear. Dennoch können wir viele Prozesse
@@ -8,12 +13,10 @@ wir uns daher mit der Linearisierung von nichtlinearen Funktionen.
 
 ```{admonition} Lernziele
 :class: attention
-Sie wissen, dass eine nichtlineare Funktion **linearisiert** werden kann. Damit
+* [ ] Sie wissen, dass eine nichtlineare Funktion **linearisiert** werden kann. Damit
 ist gemeint, dass die nichtlineare Funktion $f:\mathbb{R}\to\mathbb{R}$
 näherungsweise durch die lineare Funktion
-
 $$T(x) = f(x_0) + f'(x_0)\cdot (x-x_0)$$
-
 ersetzt werden kann. Das stimmt nur in der Nähe des sogenannten
 **Arbeitspunktes** $(x_0,f(x_0))$.
 ```

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 4.1 Basis und Dimension
 
 In diesem Kapitel werden wir uns mit den grundlegenden Konzepten Basis und
@@ -8,11 +13,11 @@ Linearkombination von Vektoren, die wir im letzten Kapitel kennengelernt haben.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was ein **Erzeugendensystem** ist.
-* Sie wissen, was eine **Basis** ist.
-* Sie kennen die **Standardbasis** des $\mathbb{R}^3$ und die dazugehörigen
+* [ ] Sie wissen, was ein **Erzeugendensystem** ist.
+* [ ] Sie wissen, was eine **Basis** ist.
+* [ ] Sie kennen die **Standardbasis** des $\mathbb{R}^3$ und die dazugehörigen
   **kanonischen Einheitsvektoren**.
-* Sie wissen, was die **Dimension** eines Vektorraumes ist.
+* [ ] Sie wissen, was die **Dimension** eines Vektorraumes ist.
 ```
 
 ## Erzeugendensystem

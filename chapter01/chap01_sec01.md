@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # Mengen
 
 ## Lernziele
@@ -172,14 +177,14 @@ Element aus $W_5$ auch ein Element der Menge $W_7$. Wir bezeichnen die Menge der
 Werktage $W_5$ als eine **Teilmenge** der Wochentage $W_7$ und schreiben:
 
 \begin{equation*}
-W_5 \subset W_7.
+W_5 \subseteq W_7.
 \end{equation*}
 
 Umgekehrt nennen wir die Wochentage **Obermenge** von den Werktagen und
-schreiben $W_7 \supset W_5$, also mit einem spiegelverkehrtem Teilmengen-Symbol.
-In einem Mengendiagramm liegt die eine geometrische Form (hier ein Kreis für die
-Werktage) komplett in der anderen geometrischen Form (hier eine Ellipse für die
-Wochentage).
+schreiben $W_7 \supseteq W_5$, also mit einem spiegelverkehrtem
+Teilmengen-Symbol. In einem Mengendiagramm liegt die eine geometrische Form
+(hier ein Kreis für die Werktage) komplett in der anderen geometrischen Form
+(hier eine Ellipse für die Wochentage).
 
 ```{figure} pics/fig01_subset_as_venn_diagram.svg
 ---
@@ -187,7 +192,7 @@ width: 100%
 name: fig01_subset_as_venn_diagram
 ---
 Mengendiagramm mit der Teilmenge Werktage $W_5$ und der Obermenge Wochentage
-$W_7$ mit der Beziehung $W_5\subset W_7$ (Quelle: eigene Darstellung; Lizenz [CC
+$W_7$ mit der Beziehung $W_5\subseteq W_7$ (Quelle: eigene Darstellung; Lizenz [CC
 BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 ```
 
@@ -198,48 +203,36 @@ Menge ist. Oder anders ausgedrückt: die erste Menge $M_1$ ist Teilmenge der
 zweiten Menge $M_2$ und $M_2$ ist Teilmenge von $M_1$. Wir schreiben mathematisch:
 
 \begin{equation*}
-M_1 = M_2, \quad \text{wenn} \quad M_1 \subset M_2 \; \text{\textbf{ und }} \;
-M_2 \subset M_1.
+M_1 = M_2, \quad \text{wenn} \quad M_1 \subseteq M_2 \; \text{\textbf{ und }} \;
+M_2 \subseteq M_1.
 \end{equation*}
 
 Wir können beispielsweise die Menge der Werktage nach ihrem Auftreten auflisten
 
 \begin{equation*}
-W_1 = \{\text{Montag}, \text{Dienstag}, \text{Mittwoch}, \text{Donnerstag}, \text{Freitag} \}.
+W_5 = \{\text{Montag}, \text{Dienstag}, \text{Mittwoch}, \text{Donnerstag}, \text{Freitag} \}.
 \end{equation*}
 
 oder alphabetisch
 
 \begin{equation*}
-W_2 = \{\text{Dienstag}, \text{Donnerstag},  \text{Freitag}, \text{Mittwoch}, \text{Montag}\}.
+W_5^{\text{alphabetisch}} = \{\text{Dienstag}, \text{Donnerstag},  \text{Freitag},
+\text{Mittwoch}, \text{Montag}\}.
 \end{equation*}
 
 Dennoch sind die beiden Mengen gleich, denn sie enthalten die gleichen Elemente
-und auf die Reihenfolge der Aufzählung kommt es nicht an. Also ist $W_1$ eine
-Teilmenge von $W_2$ und gleichzeitig ist $W_1 = W_2$.
+und auf die Reihenfolge der Aufzählung kommt es nicht an. Also ist $W_5$ eine
+Teilmenge von $W_5^{\text{alphabetisch}}$ und $W_5^{\text{alphabetisch}}$ eine
+Teilmenge von $W_5$ und somit $W_5 = W_5^{\text{alphabetisch}}$.
 
-In einigen Lehrbüchern bezeichnet das Symbol $\subset$ eine **echte Teilmenge**.
-In unserem Beispiel hat die Menge der Wochentage $W_7$ zwei Elemente (Samstag
-und Sonntag), die nicht zu der Menge der Werktage $W_5$ gehören. Damit ist $W_5$
-eine echte Teilmenge von $W_7$.
-
-Würden wir jedoch beispielsweise die Tage im Januar und März nehmen,
-also
-
-\begin{equation*}
-J = \{1, 2, 3, \ldots, 31\} \quad \text{ und } \quad M = \{1, 2, 3, \ldots, 31\},
-\end{equation*}
-
-dann sind die Januartage eine Teilmenge der Märztage, aber gleichzeitig ist die
-Menge der Januartage gleich der Menge der Märztage. Dafür wird auch das Symbol
-$\subseteq$ verwendet, also
-
-\begin{equation*}
-J \subseteq M.
-\end{equation*}
-
+In einigen Lehrbüchern wird der Begriff **echte Teilmenge** eingeführt. In
+unserem Beispiel hat die Menge der Wochentage $W_7$ zwei Elemente (Samstag und
+Sonntag), die nicht zu der Menge der Werktage $W_5$ gehören. Damit ist $W_5$
+eine echte Teilmenge von $W_7$. Wenn es wichtig ist auszudrücken, dass $W_5$
+eine echte Teilmenge von $W_7$ ist, können wir $W_5 \subsetneq W_7$ schreiben.
 Im Folgenden wird darauf hingewiesen, wenn der Unterschied wichtig ist.
-Ansonsten unterscheiden wir nicht zwischen echten Teilmengen und Teilmengen.
+Ansonsten unterscheiden wir nicht zwischen echten Teilmengen und Teilmengen und
+benutzen das Symbol $\subseteq$.
 
 ```{dropdown} Video "Teilmenge, Obermenge, Gleichheit" von Mathematische Methoden
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BT1_U1pGguA"

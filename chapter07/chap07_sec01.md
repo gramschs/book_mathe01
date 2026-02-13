@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 7.1 Determinanten
 
 In den vorangegangenen Kapiteln haben wir Matrizen kennengelernt, die eine
@@ -9,8 +14,8 @@ Anwendungen hat, die sogenannte Determinante.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können die **Determinante** einer $2\times 2$-Matrix berechnen.
-* Sie können die Determinante einer $n\times n$-Matrix mit $n>2$ berechnen,
+* [ ] Sie können die **Determinante** einer $2\times 2$-Matrix berechnen.
+* [ ] Sie können die Determinante einer $n\times n$-Matrix mit $n>2$ berechnen,
   indem Sie den **Laplaceschen Entwicklungssatz** anwenden.
 ```
 

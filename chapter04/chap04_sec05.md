@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 4.5 Vektorprodukt
 
 Nachdem wir uns zwei Kapitel lang mit dem Skalarprodukt beschäftigt haben,
@@ -8,8 +13,8 @@ Skalarprodukt ist das Ergebnis dieser Verknüpfung ein Vektor.
 
 ```{admonition} Lernziele
 :class: attention
-- Sie können das **Vektorprodukt** von Vektoren in Komponentenschreibweise **ausrechnen**.
-- Sie können folgende **Rechenregeln** anwenden:
+- [ ] Sie können das **Vektorprodukt** von Vektoren in Komponentenschreibweise **ausrechnen**.
+- [ ] Sie können folgende **Rechenregeln** anwenden:
   - Antikommutativgesetz: $\vec{a}\times\vec{b} =
     \textcolor{red}{-}\vec{b}\times\vec{a}$
   - Distributivgesetz Skalarmultiplikation:
@@ -21,7 +26,7 @@ Skalarprodukt ist das Ergebnis dieser Verknüpfung ein Vektor.
   - *kein* Assoziativgesetz:
     $\left(\vec{a}\times\vec{b}\right)\times\vec{c}\textcolor{red}{\,\neq\,}
     \vec{a}\times \left(\vec{b} \times \vec{c}\right)$.
-- Sie wissen, wie das **Vektorprodukt** zweier Vektoren **geometrisch
+- [ ] Sie wissen, wie das **Vektorprodukt** zweier Vektoren **geometrisch
   interpretiert** wird: Das Vektorprodukt der beiden Vektoren $\vec{a}$ und
   $\vec{b}$ ist der Vektor $\vec{c}$ für den gilt:
   - Die Richtung von $\vec{c}$ ist senkrecht zu $\vec{a}$ und senkrecht zu

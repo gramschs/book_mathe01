@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 8.3 Betrag, komplexe Konjugation und Division
 
 In dem vorherigen Kapitel haben wir die Addition, Subtraktion und Multiplikation
@@ -10,20 +15,17 @@ beschäftigen uns mit der **komplexen Konjugation**.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie können den **Betrag** einer komplexen Zahl berechnen: 
-
+* [ ] Sie können den **Betrag** einer komplexen Zahl berechnen: 
    $$|z|=\sqrt{\text{Re}(z)^2 + \text{Im}(z)^2}.$$
-
-* Sie kennen die **Dreiecksungleichung** für den Betrag komplexer Zahlen: 
-
+* [ ] Sie kennen die **Dreiecksungleichung** für den Betrag komplexer Zahlen: 
    $$|z_1 + z_2| \leq |z_1| + |z_2|.$$
-* Sie können die **konjugiert komplexe Zahl** bilden, also eine **komplexe
+* [ ] Sie können die **konjugiert komplexe Zahl** bilden, also eine **komplexe
   Konjugation** durchführen. 
-* Sie können die folgenden Rechenregeln für den Betrag anwenden:
+* [ ] Sie können die folgenden Rechenregeln für den Betrag anwenden:
     * $|z_1 \cdot z_2| = |z_1| \cdot |z_2|$   
     * $|z| = |\bar{z}|$   
     * $|z| = \sqrt{z \cdot \bar{z}}$
-* Sie können zwei komplexe Zahlen in Normalform **dividieren**.
+* [ ] Sie können zwei komplexe Zahlen in Normalform **dividieren**.
 ```
 
 ## Betrag komplexer Zahlen

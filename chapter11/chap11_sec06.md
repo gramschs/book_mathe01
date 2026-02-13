@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 11.6 Wendepunkte
 
 Auch die Nullstellen der zweiten Ableitung haben eine besondere geometrische
@@ -7,9 +12,9 @@ Bedeutung, die wir in diesem Kapitel uns erarbeiten.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, was ein **Wendepunkt** ist.
-* Sie kennen die Bedingungen, unter denen eine Funktion einen Wendepunkt hat.
-* Sie wissen, was ein **Sattelpunkt/Terassenpunkt** ist.
+* [ ] Sie wissen, was ein **Wendepunkt** ist.
+* [ ] Sie kennen die Bedingungen, unter denen eine Funktion einen Wendepunkt hat.
+* [ ] Sie wissen, was ein **Sattelpunkt/Terassenpunkt** ist.
 ```
 
 ## Wendepunkt

@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Simone Gramsch
+---
+
 # 12.3 Eigenschaften von Integralen
 
 Kennt man die Eigenschaften von Integralen, so kann das so manche Rechnung
@@ -8,31 +13,21 @@ Integralen präsentiert.
 
 ```{admonition} Lernziele
 :class: attention
-* Sie wissen, wie sich das Integral verändert, wenn die beiden Integrationsgrenzen
+* [ ] Sie wissen, wie sich das Integral verändert, wenn die beiden Integrationsgrenzen
   miteinander vertauscht werden:
-
-$$\int_{a}^{b} f(x)\,dx = - \int_{b}^{a} f(x)\, dx.$$
-
-* Sie wissen, dass das Integral Null ist, wenn die untere Integrationsgrenze
+  $$\int_{a}^{b} f(x)\,dx = - \int_{b}^{a} f(x)\, dx.$$
+* [ ] Sie wissen, dass das Integral Null ist, wenn die untere Integrationsgrenze
   gleich der oberen Integrationsgrenze ist:
-
-$$\int_{a}^{a} f(x)\, dx = 0.$$
-
-* Sie wissen, dass ein Integral mit dem Punkt $c$ in zwei Integrale aufgespalten
+  $$\int_{a}^{a} f(x)\, dx = 0.$$
+* [ ] Sie wissen, dass ein Integral mit dem Punkt $c$ in zwei Integrale aufgespalten
   werden kann:
-
-$$\int_{a}^{b} f(x) \,dx = \int_{a}^{c} f(x) \,dx + \int_{c}^{b} f(x) \,dx.
-$$
-
-* Sie kennen die **Faktorregel**:
-
-$$\int_{a}^{b} c\cdot f(x)\, dx = c\cdot
-\int_{a}^{b} f(x)\, dx.$$
-
-* Sie kennen die **Summenregel**:
-
-$$\int_{a}^{b} f(x) \pm g(x) \, dx = \int_{a}^{b}f(x)\, dx \pm \int_{a}^{b}
-g(x)\, dx.$$
+  $$\int_{a}^{b} f(x) \,dx = \int_{a}^{c} f(x) \,dx + \int_{c}^{b} f(x) \,dx.$$
+* [ ] Sie kennen die **Faktorregel**:
+  $$\int_{a}^{b} c\cdot f(x)\, dx = c\cdot
+  \int_{a}^{b} f(x)\, dx.$$
+* [ ] Sie kennen die **Summenregel**:
+  $$\int_{a}^{b} f(x) \pm g(x) \, dx = \int_{a}^{b}f(x)\, dx \pm \int_{a}^{b}
+  g(x)\, dx.$$
 ```
 
 ## Integrationsgrenzen
