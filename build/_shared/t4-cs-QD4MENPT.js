@@ -1,1 +1,1 @@
-import{a}from"book_mathe01/build/_shared/chunk-SZAK5OLM.js";import"book_mathe01/build/_shared/chunk-SWM73M5L.js";import"book_mathe01/build/_shared/chunk-37MEAX4M.js";import"book_mathe01/build/_shared/chunk-OZE3FFNP.js";export default a();
+import{a}from"/book_mathe01/build/_shared/chunk-SZAK5OLM.js";import"/book_mathe01/build/_shared/chunk-SWM73M5L.js";import"/book_mathe01/build/_shared/chunk-37MEAX4M.js";import"/book_mathe01/build/_shared/chunk-OZE3FFNP.js";export default a();
