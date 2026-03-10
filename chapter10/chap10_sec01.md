@@ -92,20 +92,29 @@ eingeblendet.
 ```{admonition} Lösung
 :class: tip
 :class: dropdown
-1. Die Strecke zum Zeitpunkt t<sub>1</sub> = 10 min ist s<sub>1</sub> = 1.1 km. Zum Zeitpunkt t<sub>2</sub> = 40 min wurden s<sub>2</sub> = 65.6 km zurückgelegt. Damit ist die Durchschnittsgeschwindigkeit im Zeitraum [10 min, 40 min]
+1. Die Strecke zum Zeitpunkt t{sub}`1` = 10 min ist s{sub}`1` = 1.1 km. Zum
+   Zeitpunkt t{sub}`2` = 40 min wurden s{sub}`2` = 65.6 km zurückgelegt. Damit
+   ist die Durchschnittsgeschwindigkeit im Zeitraum [10 min, 40 min]
 
-$$\frac{65.6 \text{ km} - 1.1 \text{ km}}{40 \text{ min} - 10 \text{ min}} = 
-\frac{64.5 \text{ km}}{30 \text{ min}} = \frac{64.5 \text{ km}}{0.5 \text{ h}} = 129.0 \text{ km/h}.$$
+$$\frac{65.6 \text{ km} - 1.1 \text{ km}}{40 \text{ min} - 10 \text{ min}} =
+\frac{64.5 \text{ km}}{30 \text{ min}} = \frac{64.5 \text{ km}}{0.5 \text{ h}} =
+129.0 \text{ km/h}.$$
 
-2. Die Strecke zum Zeitpunkt t<sub>1</sub> = 15 min ist s<sub>1</sub> = 11.5 km. Zum Zeitpunkt t<sub>2</sub> = 20 min wurden s<sub>2</sub> = 22.1 km zurückgelegt. Damit ist die Durchschnittsgeschwindigkeit im Zeitraum [15 min, 20 min]
+2. Die Strecke zum Zeitpunkt t{sub}`1` = 15 min ist s{sub}`1` = 11.5 km. Zum
+   Zeitpunkt t{sub}`2` = 20 min wurden s{sub}`2` = 22.1 km zurückgelegt. Damit
+   ist die Durchschnittsgeschwindigkeit im Zeitraum [15 min, 20 min]
 
-$$\frac{22.1 \text{ km} - 11.5 \text{ km}}{20 \text{ min} - 15 \text{ min}} = 
-\frac{10.6 \text{ km}}{5 \text{ min}} = \frac{10.6 \text{ km}}{1/12 \text{ h}} = 127.2 \text{ km/h}.$$
+$$\frac{22.1 \text{ km} - 11.5 \text{ km}}{20 \text{ min} - 15 \text{ min}} =
+\frac{10.6 \text{ km}}{5 \text{ min}} = \frac{10.6 \text{ km}}{1/12 \text{ h}} =
+127.2 \text{ km/h}.$$
 
-3. Die Strecke zum Zeitpunkt t<sub>1</sub> = 20 min ist s<sub>1</sub> = 22.1 km. Zum Zeitpunkt t<sub>2</sub> = 30 min wurden s<sub>2</sub> = 44.4 km zurückgelegt. Damit ist die Durchschnittsgeschwindigkeit im Zeitraum [20 min, 30 min]
+3. Die Strecke zum Zeitpunkt t{sub}`1` = 20 min ist s{sub}`1` = 22.1 km. Zum
+   Zeitpunkt t{sub}`2` = 30 min wurden s{sub}`2` = 44.4 km zurückgelegt. Damit
+   ist die Durchschnittsgeschwindigkeit im Zeitraum [20 min, 30 min]
 
-$$\frac{44.4 \text{ km} - 22.1 \text{ km}}{30 \text{ min} - 20 \text{ min}} = 
-\frac{22.3 \text{ km}}{10 \text{ min}} = \frac{22.3 \text{ km}}{1/6 \text{ h}} = 133.8 \text{ km/h}.$$
+$$\frac{44.4 \text{ km} - 22.1 \text{ km}}{30 \text{ min} - 20 \text{ min}} =
+\frac{22.3 \text{ km}}{10 \text{ min}} = \frac{22.3 \text{ km}}{1/6 \text{ h}} =
+133.8 \text{ km/h}.$$
 
 Je nachdem, wo das Auto die Kontrollpunkte passiert hat, droht ein Bußgeld.
 ```
@@ -234,6 +243,17 @@ existiert, nennt man diesen Grenzwert Differentialquotient der Funktion $f$ an
 der Stelle $x_1$.
 ```
 
+Hinweis: Sehr häufig wird der Differentialquotient auch als **Ableitung** der
+Funktion $f$ an der Stelle $x_1$ bezeichnet. Wir schreiben dann mathematisch
+kurz $f'(x_1)$, also
+
+\begin{equation*}
+f'(x_1) = \lim_{x_2 \to x_1} \frac{f(x_2) - f(x_1)}{x_2 - x_1}.
+\end{equation*}
+
+Wir sprechen das als "f Strich an der Stelle x1 ist ..." aus oder sagen "die Ableitung
+der Funktion f an der Stelle x1 ist ...".
+
 ## Geometrische Interpretation des Differentialquotienten
 
 Während der Differenzenquotient die Steigung einer Sekante zwischen zwei Punkten
@@ -250,8 +270,7 @@ Der Differentialquotient
 \end{equation*}
 
 gibt dann die Steigung dieser Tangente am Punkt $(x, f(x)$ an. Die Steigung der
-Tangente der Funktion $f$ an der Stelle $x$ wird meist mit einem Strich
-abgekürzt, also
+Tangente der Funktion $f$ an der Stelle $x$ ist also
 
 \begin{equation*}
 f'(x) = \lim_{\Delta x \to 0}\frac{f(x + \Delta x) - f(x)}{\Delta x}.
